@@ -1,0 +1,61 @@
+site_name: "HUST MSE Tutorial"
+site_description: "[]"
+site_author: "[维护团队：]"
+site_url: ""
+repo_url: ""
+edit_uri: ""
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  logo: assets/images/site-icon.png
+  favicon: assets/images/site-icon.png
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+
+extra_css:
+  - assets/stylesheets/custom.css
+
+nav:
+  - 首页: index.md
+  - 大学生活: 大学生活/index.md
+  - 保研:
+      - 保研板块: baoyan/index.md
+      - 张令熙：上交 PhD @自感: "baoyan/张令熙 - 上交 PhD @自感.md"
+  - 考研: 考研/index.md
+  - 留学: 留学/index.md
+  - 更新记录: 更新记录.md
+  - 关于: about.md
+  - 投稿:
+      - 投稿说明: contribute.md
+      - 模板说明: page-templates/index.md
+      - 栏目页模板: page-templates/section.md
+      - 经验文章模板: page-templates/article.md
+      - 发布检查清单: page-templates/publish-checklist.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      toc_depth: 2
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en

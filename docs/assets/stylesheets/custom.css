@@ -1,0 +1,341 @@
+/* HUST MSE Tutorial 自定义主题
+   参考 Lil'Log（lilianweng.github.io）：白底极简 + 蓝 #286ee0 强调 */
+
+:root {
+  /* 主色（导航高亮、选中态等） */
+  --md-primary-fg-color: #286ee0;
+  --md-primary-fg-color--light: #5a92e6;
+  --md-primary-fg-color--dark: #1d57b5;
+
+  /* 强调色：链接、hover */
+  --md-accent-fg-color: #286ee0;
+  --md-accent-fg-color--transparent: rgba(40, 110, 224, 0.1);
+
+  /* 背景：纯白 */
+  /* 参考 Lil'Log 的浅灰页面底色：截图中心像素约为 #f5f5f5 */
+  --md-default-bg-color: #f5f5f5;
+
+  /* 正文：系统字体栈，中文回退苹方 / 微软雅黑 */
+  --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Helvetica Neue", Arial, sans-serif;
+
+  /* 代码字体：系统等宽 */
+  --md-code-font: ui-monospace, SFMono-Regular, "SF Mono", Consolas,
+    "Liberation Mono", Menlo, monospace;
+}
+
+/* 全局字重上调约 10%，标题继续保留层级差异 */
+body {
+  font-weight: 440;
+  background-color: #f5f5f5;
+}
+.md-main,
+.md-container {
+  background-color: #f5f5f5;
+}
+.md-typeset h1 {
+  font-weight: 330;
+}
+.md-typeset h1.section-page-title {
+  font-weight: 550;
+}
+.md-typeset h2.section-subtitle {
+  margin-left: 1.5rem;
+}
+.md-typeset h2.section-subtitle + ul {
+  margin-left: 1.5rem;
+}
+.md-typeset h2.section-subtitle + ul a {
+  color: #595f64;
+  font-size: 1.1em;
+  font-weight: 470;
+}
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-header,
+.md-sidebar,
+.md-search {
+  font-weight: 440;
+}
+
+/* 链接颜色，hover 加深 */
+.md-typeset a {
+  color: #6f767d;
+}
+.md-typeset a:hover {
+  color: #1f1f1f;
+}
+
+/* 页头改白底，文字近黑（仿 Lil'Log --primary） */
+.md-header {
+  background-color: rgba(255, 255, 255, 0.86);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: rgb(30, 30, 30);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.07);
+}
+.md-header--shadow {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.07);
+}
+.md-header__title,
+.md-header__topic {
+  color: inherit;
+}
+.md-header__title {
+  font-size: 1.08rem;
+}
+.md-header__button {
+  color: inherit;
+}
+.md-header__button:hover {
+  opacity: 0.75;
+}
+
+/* 搜索入口向右微调，避免与顶部导航过于靠近 */
+.md-header__inner > label[for="__search"] {
+  position: relative;
+  left: 0;
+}
+
+/* 桌面端实际显示的搜索框向右微调 */
+.md-header__inner > .md-search {
+  position: relative;
+  left: 2%;
+  transform: scale(0.8);
+  transform-origin: right center;
+}
+
+/* 右上角导航菜单（桌面端），激活态学 Lil'Log：加粗 + 下划线，无底色 */
+.md-header__nav {
+  margin-left: auto;
+  margin-right: 0.75rem;
+}
+.md-header__nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.md-header__nav-item {
+  margin: 0;
+}
+.md-header__nav-link {
+  display: block;
+  padding: 0.25rem 0;
+  font-size: 0.77rem;
+  line-height: 1.5;
+  color: rgb(30, 30, 30);
+  font-weight: 440;
+  border-bottom: 2px solid transparent;
+}
+.md-header__nav-link:hover {
+  color: #aaa;
+}
+.md-header__nav-item--active .md-header__nav-link {
+  color: rgb(30, 30, 30);
+  font-weight: 550;
+  border-bottom: 2px solid currentColor;
+}
+
+/* 移动端隐藏右上角导航（导航走汉堡菜单侧边栏） */
+@media screen and (max-width: 76.1875em) {
+  .md-header__nav {
+    display: none;
+  }
+}
+
+/* 正文行高更舒展 */
+.md-typeset {
+  line-height: 1.5;
+}
+.md-typeset p {
+  margin-top: 0.9em;
+  margin-bottom: 0.9em;
+}
+
+/* 首页大标题下留白更舒展 */
+.md-typeset h1 {
+  color: #1f1f1f;
+  margin-bottom: 1.25rem;
+}
+.md-typeset h1#welcome-to-hust-mse {
+  font-size: 2.2em;
+  font-weight: 380;
+  margin-bottom: 1rem;
+}
+
+/* 文章中用【】标出的内容框 */
+.md-typeset .article-box {
+  margin: 1.8rem 0;
+  padding: 1.25rem 1.45rem 1.35rem;
+  border: 1px solid #e5e8ed;
+  border-radius: 0.45rem;
+  background: #ffffff;
+  box-shadow: 0 3px 12px rgba(31, 41, 55, 0.045);
+}
+.md-typeset .article-box > :first-child {
+  margin-top: 0;
+}
+.md-typeset .article-box > :last-child {
+  margin-bottom: 0;
+}
+.md-typeset .home-card {
+  width: calc(100% - 1.5rem);
+  margin-left: 1.5rem;
+  margin-top: 1.12rem;
+  margin-bottom: 1.12rem;
+}
+.md-typeset .home-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.7rem;
+  font-size: 1rem;
+  line-height: 1.35;
+  font-weight: 550;
+}
+.md-typeset .home-card p,
+.md-typeset .home-card a {
+  font-size: 0.7rem;
+  line-height: 1.6;
+}
+.md-typeset > h1 + p {
+  color: #8a8f94;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-indent: 0;
+  margin-left: 2em;
+  margin-top: 1rem;
+}
+.md-typeset > .article-box + .article-box {
+  margin-top: 0.64rem;
+}
+.md-typeset > h2 + .article-box {
+  margin-top: 0.6rem;
+}
+.md-typeset > hr {
+  margin-bottom: 1.1rem;
+}
+.md-typeset > hr + h3 {
+  margin-top: 1.1rem;
+}
+
+/* 方框内的结果表格铺满卡片宽度，避免出现内窄外宽 */
+.md-typeset .article-box .md-typeset__table {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  overflow-x: visible;
+}
+.md-typeset .article-box table:not([class]) {
+  display: table;
+  width: 100% !important;
+  max-width: none;
+  margin: 0;
+  table-layout: auto;
+}
+
+/* 申请结果表格保留紧凑宽度，使用基础字号 */
+.md-typeset table:not([class]) {
+  display: table;
+  width: calc(100% - 1.25rem) !important;
+  max-width: none;
+  margin-left: 1.25rem;
+  font-size: 100%;
+}
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+.md-typeset .md-typeset__table {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* 页头左侧站点图标 */
+.md-header__button.md-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+.md-header__button.md-logo img {
+  display: block;
+  width: 1.75rem;
+  height: 1.75rem;
+  object-fit: contain;
+}
+
+/* 首页底部的更新记录入口 */
+.md-typeset .update-link {
+  margin-top: 3rem;
+  font-size: 0.78rem;
+  text-align: center;
+}
+.md-typeset .update-link a {
+  color: #9aa0a6;
+}
+.md-typeset .update-link a:hover {
+  color: #6f767d;
+}
+
+/* 桌面端采用较窄的中央阅读列，右侧保留页面目录 */
+@media screen and (min-width: 76.25em) {
+  .md-header__inner {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .md-grid {
+    max-width: 980px;
+  }
+  .md-content {
+    max-width: 672px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* 桌面端隐藏左侧整套站点导航，保留右侧页面目录 */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+}
+
+/* 右侧目录与页面底色统一，取消独立白色标题块和蓝色激活态 */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--secondary,
+  .md-sidebar--secondary .md-sidebar__scrollwrap,
+  .md-sidebar--secondary .md-nav,
+  .md-sidebar--secondary .md-nav__title {
+    background: transparent;
+    box-shadow: none;
+  }
+  .md-sidebar--secondary .md-nav__title {
+    color: #5f6368;
+    font-weight: 650;
+  }
+  .md-sidebar--secondary .md-nav__link {
+    color: #3f444a;
+    font-weight: 440;
+  }
+  .md-sidebar--secondary .md-nav__link--active,
+  .md-sidebar--secondary .md-nav__link:hover {
+    color: #1f1f1f !important;
+  }
+  .md-sidebar--secondary .md-nav__link--active {
+    font-weight: 550;
+    border-left: 2px solid #9aa0a6;
+    padding-left: 0.65rem;
+  }
+}

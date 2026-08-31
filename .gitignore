@@ -1,0 +1,7 @@
+site/
+site_verify/
+.cache/
+.venv/
+__pycache__/
+*.pyc
+mkdocs-server*.log
