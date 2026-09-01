@@ -339,3 +339,16 @@ body {
     padding-left: 0.65rem;
   }
 }
+
+/* 自感页面：扩大文章卡片，并将右侧目录略向外移，避免阅读列显得拥挤 */
+@media screen and (min-width: 76.25em) {
+  body:has(h1.personal-page-title) .md-sidebar--secondary {
+    position: relative;
+    left: 10%;
+  }
+  body:has(h1.personal-page-title) .md-typeset .article-box {
+    box-sizing: border-box;
+    width: 115%;
+    max-width: none;
+  }
+}

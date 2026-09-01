@@ -7,7 +7,7 @@ hide:
 
 ## 2023 级（27 fall） { .section-subtitle }
 
-- [WILL Z：上交 PhD @自感](WILL%20Z%20-%20上交%20PhD%20%40自感.md)
+- [WILL Z：上交 PhD @自感](shangjiao-phd-zigan.md)
 
 ## 2022 级（26 fall） { .section-subtitle }
 

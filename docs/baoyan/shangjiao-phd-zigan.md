@@ -1,4 +1,4 @@
-# **WILL Z - 上交 PhD @自感**
+# **WILL Z - 上交 PhD @自感** { .personal-page-title }
 
 > 机械学院 - 2023 级 - 机器人 2301 班
 
