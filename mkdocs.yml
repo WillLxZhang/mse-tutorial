@@ -1,8 +1,8 @@
 site_name: "HUST MSE Tutorial"
-site_description: "[]"
-site_author: "[维护团队：]"
+site_description: "华中科技大学机械相关同学的校园与升学经验分享"
+site_author: "HUST MSE Tutorial 维护团队"
 site_url: "https://willlxzhang.github.io/mse-tutorial/"
-repo_url: ""
+repo_url: "https://github.com/WillLxZhang/mse-tutorial"
 edit_uri: ""
 
 theme:
@@ -33,7 +33,11 @@ nav:
   - 考研: 考研/index.md
   - 留学: 留学/index.md
   - 更新记录: 更新记录.md
-  - 关于: about.md
+  - 关于:
+      - 项目说明: about.md
+      - 内容政策: policies/content-policy.md
+      - 隐私与 AI 处理: policies/privacy-ai.md
+      - 勘误、申诉与撤回: policies/corrections.md
   - 投稿:
       - 投稿说明: contribute.md
       - 模板说明: page-templates/index.md
