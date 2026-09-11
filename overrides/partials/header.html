@@ -1,6 +1,6 @@
 {#-
   HUST MSE Tutorial 自定义 header：
-  把顶部导航（首页 / 关于 / 投稿）移到右上角，logo 与标题靠左。
+  把顶部导航（首页 / 大学生活 / 保研 / 考研 / 留学 / 关于 / 投稿）移到右上角，logo 与标题靠左。
   基于 Material for MkDocs 的 header.html 定制。
 -#}
 {% set class = "md-header" %}
@@ -38,14 +38,14 @@
     {% if config.extra.alternate %}
       {% include "partials/alternate.html" %}
     {% endif %}
-    {# 顶部保留首页和四个内容板块入口 #}
+    {# 顶部保留首页、四个内容板块、关于和投稿入口 #}
     <nav class="md-header__nav" aria-label="内容板块">
       <ul class="md-header__nav-list">
         <li class="md-header__nav-item{% if page.is_homepage %} md-header__nav-item--active{% endif %}">
           <a href="{{ nav.homepage.url | url }}" class="md-header__nav-link">首页</a>
         </li>
         {% for nav_item in nav.items %}
-          {% if nav_item.title in ["大学生活", "保研", "考研", "留学"] %}
+          {% if nav_item.title in ["大学生活", "保研", "考研", "留学", "关于", "投稿"] %}
             {% if nav_item.children %}
               {% set first = nav_item.children | first %}
               <li class="md-header__nav-item{% if nav_item.active %} md-header__nav-item--active{% endif %}">
