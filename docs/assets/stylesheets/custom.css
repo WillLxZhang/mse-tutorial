@@ -1,15 +1,15 @@
 /* HUST MSE Tutorial 自定义主题
-   参考 Lil'Log（lilianweng.github.io）：浅灰底色 + 低饱和青灰强调 */
+   参考 Lil'Log（lilianweng.github.io）：浅灰底色 + 中性石墨灰强调 */
 
 :root {
-  /* 主色（移动端抽屉背景、导航高亮等）：深青灰 */
-  --md-primary-fg-color: #405a5c;
-  --md-primary-fg-color--light: #668083;
-  --md-primary-fg-color--dark: #2f4446;
+  /* 主色（移动端抽屉背景、导航高亮等）：中性石墨灰 */
+  --md-primary-fg-color: #5f6368;
+  --md-primary-fg-color--light: #7b8085;
+  --md-primary-fg-color--dark: #45484c;
 
-  /* 强调色：链接、hover，与主色保持同一青灰色系 */
-  --md-accent-fg-color: #526d70;
-  --md-accent-fg-color--transparent: rgba(82, 109, 112, 0.12);
+  /* 强调色：链接、hover，与主色保持同一中性灰色系 */
+  --md-accent-fg-color: #686d72;
+  --md-accent-fg-color--transparent: rgba(104, 109, 114, 0.12);
 
   /* 背景：纯白 */
   /* 参考 Lil'Log 的浅灰页面底色：截图中心像素约为 #f5f5f5 */
@@ -64,23 +64,23 @@ body {
 
 /* 链接颜色，hover 加深 */
 .md-typeset a {
-  color: #526d70;
+  color: #686d72;
 }
 .md-typeset a:hover {
-  color: #32494c;
+  color: #34383c;
 }
 
 /* 移动端抽屉：替换默认亮蓝背景和激活链接色 */
 .md-nav--primary .md-nav__title {
-  background-color: #405a5c;
+  background-color: #5f6368;
   color: #ffffff;
 }
 .md-nav--primary .md-nav__link {
-  color: #455d60;
+  color: #555a60;
 }
 .md-nav--primary .md-nav__link:hover,
 .md-nav--primary .md-nav__link--active {
-  color: #32494c;
+  color: #34383c;
 }
 .md-nav--primary .md-nav__link--active {
   font-weight: 550;
