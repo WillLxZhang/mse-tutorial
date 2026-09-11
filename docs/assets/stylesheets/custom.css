@@ -86,6 +86,14 @@ body {
   font-weight: 550;
 }
 
+/* 移动侧栏中，当前顶层页面由主题自动生成的目录标题会造成重复层级；保留实际链接即可 */
+@media screen and (max-width: 76.1875em) {
+  .md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--active > input#__toc,
+  .md-nav--primary > .md-nav__list > .md-nav__item.md-nav__item--active > label[for="__toc"] {
+    display: none !important;
+  }
+}
+
 /* 页头改白底，文字近黑（仿 Lil'Log --primary） */
 .md-header {
   /* 与页面主体统一的浅灰色顶栏 */
