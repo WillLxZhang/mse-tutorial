@@ -33,8 +33,7 @@ nav:
   - 考研: 考研/index.md
   - 留学: 留学/index.md
   - 关于: about.md
-  - 投稿:
-      - 投稿说明: contribute.md
+  - 投稿: contribute.md
 
 markdown_extensions:
   - admonition
