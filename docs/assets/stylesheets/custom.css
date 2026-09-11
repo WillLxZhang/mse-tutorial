@@ -304,6 +304,37 @@ body {
   color: #6f767d;
 }
 
+/* 关于页维护者头像：圆形并列，头像和名称均可进入 GitHub 主页 */
+.md-typeset .maintainer-profiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 1.25rem 0 0.5rem;
+}
+.md-typeset .maintainer-profile {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  color: #555a60;
+  font-size: 0.78rem;
+  text-decoration: none;
+}
+.md-typeset .maintainer-profile img {
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 1px solid #d7d9dc;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(31, 35, 39, 0.08);
+}
+.md-typeset .maintainer-profile:hover {
+  color: #34383c;
+}
+.md-typeset .maintainer-profile:hover img {
+  border-color: #8a8f94;
+}
+
 /* 桌面端采用较窄的中央阅读列，右侧保留页面目录 */
 @media screen and (min-width: 76.25em) {
   .md-header__inner {
