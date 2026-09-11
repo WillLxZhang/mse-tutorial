@@ -88,7 +88,8 @@ body {
 
 /* 页头改白底，文字近黑（仿 Lil'Log --primary） */
 .md-header {
-  background-color: rgba(255, 255, 255, 0.86);
+  /* 与页面主体统一的浅灰色顶栏 */
+  background-color: rgba(245, 245, 245, 0.96);
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   color: rgb(30, 30, 30);
@@ -133,6 +134,7 @@ body {
 .md-header__nav-list {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 1.25rem;
   margin: 0;
   padding: 0;
@@ -140,12 +142,14 @@ body {
 }
 .md-header__nav-item {
   margin: 0;
+  flex: 0 0 auto;
 }
 .md-header__nav-link {
   display: block;
   padding: 0.25rem 0;
   font-size: 0.77rem;
   line-height: 1.5;
+  white-space: nowrap;
   color: rgb(30, 30, 30);
   font-weight: 440;
   border-bottom: 2px solid transparent;
@@ -338,7 +342,8 @@ body {
 /* 桌面端采用较窄的中央阅读列，右侧保留页面目录 */
 @media screen and (min-width: 76.25em) {
   .md-header__inner {
-    max-width: 980px;
+    /* 给新增的“关于/投稿”以及搜索和 GitHub 区域留出横向空间 */
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
   }
