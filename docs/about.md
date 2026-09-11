@@ -32,12 +32,6 @@ hide:
 
 ## 维护团队
 
-网站采用公开仓库协作维护。投稿、勘误、撤回和权利相关请求统一发送至：
-
-**2296937031@qq.com**
-
-维护者名单及具体分工以 GitHub 仓库中的实际协作记录为准，不在本站虚构或推定个人身份。
-
 
 <div class="maintainer-profiles">
   <a class="maintainer-profile" href="https://github.com/WillLxZhang" aria-label="WILL Z 的 GitHub 主页">
@@ -49,3 +43,8 @@ hide:
     <span>Felix</span>
   </a>
 </div>
+
+
+网站采用公开仓库协作维护。投稿、勘误、撤回和权利相关请求统一发送至：
+
+**2296937031@qq.com**
