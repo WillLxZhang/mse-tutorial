@@ -3,13 +3,13 @@ hide:
   - toc
 ---
 
-# 关于 **HUST MSE Tutorial**
+# 关于 **HUST MSE Tutorial** { .section-page-title }
 
 ## 项目说明
 
 <div class="article-box" markdown="1">
 
-本项目名为 HUST MSE Tutorial ，译为华科机械入门手册。
+本项目名为 **HUST MSE Tutorial** ，译为华科机械入门手册。
 
 在大学生活里，信息差长期存在于课业、科研、竞赛、校园生活和升学等方面中。HUST MSE Tutorial 希望保存来自往届同学的一手经验，让后来者能够看到更多路径，并结合自己的情况做出判断。
 

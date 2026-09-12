@@ -40,6 +40,9 @@ body {
 .md-typeset h1.section-page-title {
   font-weight: 550;
 }
+.md-typeset .section-entry-list a {
+  font-size: 1.3em;
+}
 .md-typeset h2.section-subtitle {
   margin-left: 1.5rem;
 }
