@@ -12,8 +12,5 @@ hide:
 - [WILL Z：上交 PhD @自感](WILL%20Z-shangjiao-phd-zigan.md)
 - [Kevin Du：北航 M.S. @具身院](Kevin%20Du-beihang-ms-embodied.md)
 
-## 2022 级（26 fall） { .section-subtitle }
-- [Miracle：上交 M.S. @自感](miracle-shangjiao-ms-zigan.md)
-
 ## 2021 级（25 fall） { .section-subtitle }
 - [Kai：浙大 M.S. @控制](kai-zheda-ms-kongzhi.md)
