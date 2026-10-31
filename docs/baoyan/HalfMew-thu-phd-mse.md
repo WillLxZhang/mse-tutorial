@@ -1,4 +1,4 @@
-# **HalfMew - 清华 M.S. @机电所** { .personal-page-title }
+# **HalfMew - 清华 PhD @机电所** { .personal-page-title }
 
 > 机械学院 - 2023 级 - 机设（机器人方向）
 

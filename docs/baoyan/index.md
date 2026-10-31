@@ -11,7 +11,7 @@ hide:
 
 - [WILL Z：上交 PhD @自感](WILL%20Z-shangjiao-phd-zigan.md)
 - [Kevin Du：北航 M.S. @具身院](Kevin%20Du-beihang-ms-embodied.md)
-- [HalfMew：清华 M.S. @机电所](HalfMew-thu-ms-mse.md)
+- [HalfMew：清华 PhD @机电所](HalfMew-thu-phd-mse.md)
 
 ## 2021 级（25 fall） { .section-subtitle }
 - [Kai：浙大 M.S. @控制](kai-zheda-ms-kongzhi.md)
