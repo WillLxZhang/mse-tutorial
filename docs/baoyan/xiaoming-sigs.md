@@ -4,7 +4,7 @@
 >
 > 分享人：**小茗同学**（小红书）
 >
-> 个人主页相关笔记：[点击查看](https://www.xiaohongshu.com/discovery/item/6ae6d3a5000000000f0278e0)
+> 小红书原帖：[点击查看](https://xhslink.cn/o/5TEh9edxnVA)
 
 ## **经历回顾**
 
@@ -62,6 +62,6 @@
 
 **作者：小红书「小茗同学」**
 
-**相关笔记：** https://www.xiaohongshu.com/discovery/item/6ae6d3a5000000000f0278e0
+**相关笔记：** [点击查看](https://xhslink.cn/o/5TEh9edxnVA)
 
 </div>
