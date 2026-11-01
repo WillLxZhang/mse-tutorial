@@ -13,7 +13,7 @@ hide:
 - [Kevin Du：北航 M.S. @具身院](Kevin%20Du-beihang-ms-embodied.md)
 - [HalfMew：清华 PhD @机械](HalfMew-thu-phd-mse.md)
 - [NG：北大 PhD @集成](NG-pku-phd-integrated-circuits.md)
-- [小茗同学：清华 @清深](2026-11-01_%E4%BF%9D%E7%A0%94%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md)
+- [小茗同学：清华 @清深](xiaoming-sigs.md)
 
 ## 2021 级（25 fall） { .section-subtitle }
 - [Kai：浙大 M.S. @控制](kai-zheda-ms-kongzhi.md)
