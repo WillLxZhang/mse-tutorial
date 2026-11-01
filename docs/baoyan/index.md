@@ -14,5 +14,9 @@ hide:
 - [HalfMew：清华 PhD @机械](HalfMew-thu-phd-mse.md)
 - [NG：北大 PhD @集成](NG-pku-phd-integrated-circuits.md)
 
+## 经验分享 { .section-subtitle }
+
+- [小茗同学：保研经验分享](2026-11-01_%E4%BF%9D%E7%A0%94%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB.md)
+
 ## 2021 级（25 fall） { .section-subtitle }
 - [Kai：浙大 M.S. @控制](kai-zheda-ms-kongzhi.md)
