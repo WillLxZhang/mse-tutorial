@@ -5,7 +5,7 @@ hide:
 
 # 硕博之选 { .section-page-title }
 
-> [校园生活与资源](../../campus-life-and-resources.md)
+> [课程与学业](../../courses-and-study.md)
 
 硕士与博士在培养周期、研究投入和未来规划等方面存在很大的差异，同时内地与出国境的情况有所不同。
 

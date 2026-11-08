@@ -5,9 +5,7 @@ hide:
 
 # 竞赛与团队 { .section-page-title }
 
-本页汇总竞赛、项目和学生团队相关词条。
-
-## 词条 { .section-subtitle }
+本页汇总竞赛、项目和学生团队等内容。
 
 - [成图大赛](topics/competitions/chengtu.md)
 - [周培源力学竞赛](topics/competitions/zhou-peiyuan.md)

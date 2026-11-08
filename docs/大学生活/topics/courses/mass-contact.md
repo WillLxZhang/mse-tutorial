@@ -5,7 +5,7 @@ hide:
 
 # 海投 { .section-page-title }
 
-> [校园生活与资源](../../campus-life-and-resources.md)
+> [课程与学业](../../courses-and-study.md)
 
 “海投”指在对个人定位有初步认知，并且明确调研过不同方向、不同老师的情况下，较广泛地联系导师或申请项目。
 

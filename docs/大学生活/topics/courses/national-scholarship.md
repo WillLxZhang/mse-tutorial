@@ -5,7 +5,7 @@ hide:
 
 # 国家奖学金 { .section-page-title }
 
-> [校园生活与资源](../../campus-life-and-resources.md)
+> [课程与学业](../../courses-and-study.md)
 
 国家奖学金金额为10000元，机械学院国奖每个年级有单独的指标，连带三好学生奖学金一同评选（有国奖必定有三好，三好比国奖多一些名额）。
 
