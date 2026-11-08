@@ -7,4 +7,8 @@ hide:
 
 > [专业方向](../../majors-and-directions.md)
 
-经验文章中的“传统机械”用于概括机械设计、制造、力学和传动等经典方向。这个称呼覆盖范围较广，可以进一步查看具体课程、实验室和研究课题。
+<div class="article-box" markdown="1">
+
+> by Felix
+
+</div>

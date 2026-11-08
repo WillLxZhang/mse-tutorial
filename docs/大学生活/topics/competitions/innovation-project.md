@@ -7,6 +7,8 @@ hide:
 
 > [竞赛与团队](../../competitions-and-teams.md)
 
-“大创”通常指大学生创新创业训练计划项目。参与者可能承担选题、立项、中期检查、实验开发和结题等工作，可以借此体验一段较完整的项目周期。
+<div class="article-box" markdown="1">
 
->by NG
+> by NG
+
+</div>

@@ -7,7 +7,11 @@ hide:
 
 > [专业方向](../../majors-and-directions.md)
 
+<div class="article-box" markdown="1">
+
 华科对转专业很宽容：
 
 
->by WILL Z
+> by WILL Z
+
+</div>

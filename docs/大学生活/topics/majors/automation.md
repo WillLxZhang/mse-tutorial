@@ -7,6 +7,10 @@ hide:
 
 > [专业方向](../../majors-and-directions.md)
 
+<div class="article-box" markdown="1">
+
 自动化相关方向常涉及控制、感知、规划和系统集成
 
->by WILL Z
+> by WILL Z
+
+</div>

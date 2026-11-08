@@ -7,6 +7,8 @@ hide:
 
 > [专业方向](../../majors-and-directions.md)
 
+<div class="article-box" markdown="1">
 
+> by NG
 
->by NG
+</div>
