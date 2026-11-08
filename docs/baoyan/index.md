@@ -15,6 +15,7 @@ hide:
 - [NG：北大 PhD @集成](NG-pku-phd-integrated-circuits.md)
 - [小茗同学：清华 @清深](xiaoming-sigs.md)
 - [混沌蝴蝶：华科 M.S. @机械](hundunhudie-hust-mse-ms.md)
+- [XxSc：华科 M.S. @机械](xxsc-hust-ms-mse.md)
 
 ## 2021 级（25 fall） { .section-subtitle }
 - [Kai：浙大 M.S. @控制](kai-zheda-ms-kongzhi.md)
