@@ -5,7 +5,7 @@ hide:
 
 # 专业方向 { .section-page-title }
 
-本页汇总专业选择与研究方向相关内容。
+本页涵盖了专业选择与研究方向等相关内容。
 
 - [转专业](topics/majors/major-transfer.md)
 - [机器人方向](topics/majors/robotics.md)
