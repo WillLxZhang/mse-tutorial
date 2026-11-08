@@ -9,6 +9,6 @@ hide:
 
 <div class="section-entry-list" markdown="1">
 
-- [2020级 **SSG**：华科 M.S. @机械]()
+
 
 </div>
