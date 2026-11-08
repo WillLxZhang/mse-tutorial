@@ -56,12 +56,13 @@ body {
 }
 .md-typeset h3.life-category-title {
   margin: 1.15rem 0 0.35rem 1.5rem;
+  color: #202124;
   font-size: 1.32em;
-  font-weight: 620;
+  font-weight: 700;
 }
 .md-typeset h3.life-category-title a {
   color: #202124;
-  font-weight: 620;
+  font-weight: 700;
 }
 .md-typeset h2,
 .md-typeset h3,
