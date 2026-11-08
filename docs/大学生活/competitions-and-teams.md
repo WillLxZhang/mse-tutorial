@@ -16,5 +16,7 @@ hide:
 - [Robocon](topics/competitions/robocon.md)
 - [VEX](topics/competitions/vex.md)
 - [STAR](topics/competitions/star.md)
+- [ONE](topics/competitions/one.md)
+- [思飞](topics/competitions/sifei.md)
 - [狼牙](topics/competitions/langya.md)
 - [大创项目](topics/competitions/innovation-project.md)
