@@ -9,6 +9,6 @@ hide:
 
 <div class="article-box" markdown="1">
 
-> by
+> by 
 
 </div>
