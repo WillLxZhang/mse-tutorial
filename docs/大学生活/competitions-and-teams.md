@@ -14,6 +14,7 @@ hide:
 - [FOCUS](topics/competitions/focus.md)
 - [ChinaMaker](topics/competitions/chinamaker.md)
 - [Robocon](topics/competitions/robocon.md)
+- [VEX](topics/competitions/vex.md)
 - [STAR](topics/competitions/star.md)
 - [狼牙](topics/competitions/langya.md)
 - [大创项目](topics/competitions/innovation-project.md)
