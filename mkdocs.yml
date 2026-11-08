@@ -24,6 +24,10 @@ theme:
 extra_css:
   - assets/stylesheets/custom.css
 
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
 nav:
   - 首页: index.md
   - 大学生活: 大学生活/index.md
@@ -50,6 +54,8 @@ markdown_extensions:
   - toc:
       toc_depth: 2
   - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
