@@ -5,7 +5,7 @@ hide:
 
 # 课程与学业 { .section-page-title }
 
-本页汇总课程学习、成绩管理、荣誉与升学准备相关内容。
+本页汇总课程学习、成绩管理与升学准备相关内容。
 
 ## 课程
 
@@ -22,8 +22,3 @@ hide:
 - [海投](topics/courses/mass-contact.md)
 - [跨保](topics/courses/cross-discipline.md)
 - [硕博之选](topics/courses/master-or-phd.md)
-
-## 奖学金与荣誉
-
-- [特优生](topics/courses/special-student.md)
-- [国家奖学金](topics/courses/national-scholarship.md)
