@@ -13,3 +13,7 @@ hide:
 - [集成](topics/majors/integrated-circuits.md)
 - [传统机械](topics/majors/traditional-mechanical.md)
 - [自动化](topics/majors/automation.md)
+- [先进电子制造](topics/majors/advanced-electronic-manufacturing.md)
+- [智能制造](topics/majors/intelligent-manufacturing.md)
+- [测控](topics/majors/measurement-and-control.md)
+- [工业工程](topics/majors/industrial-engineering.md)
