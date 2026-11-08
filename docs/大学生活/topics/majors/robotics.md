@@ -5,6 +5,6 @@ hide:
 
 # 机器人方向 { .section-page-title }
 
-> 所属类型：[专业方向](../../majors-and-directions.md)
+> [专业方向](../../majors-and-directions.md)
 
 机器人方向横跨机械、控制、计算机和电子信息等领域。可以从课程、项目和实验室经历中逐步判断自己更偏向机构、控制、感知还是智能算法。
