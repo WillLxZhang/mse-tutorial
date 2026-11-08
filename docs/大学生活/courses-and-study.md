@@ -5,20 +5,11 @@ hide:
 
 # 课程与学业 { .section-page-title }
 
-本页整理课程学习和成绩管理中反复出现的概念。培养方案与成绩计算规则可能调整，请以所在年级的正式文件为准。
+本页汇总课程学习和成绩管理相关词条。
 
-## 历年题 { #past-papers }
+## 词条 { .section-subtitle }
 
-历年题可以帮助识别常见题型、课程重点和答题节奏。使用时建议先掌握知识框架，再通过题目检查薄弱环节，并确认题目对应的课程版本和教师要求。
-
-## 加权排名 { #weighted-ranking }
-
-加权成绩与排名是多篇经验中反复出现的指标。课程权重、计算范围和排名口径可能因年级而异，应以学院发布的正式规则为准。
-
-## 一直保持 { #keep-ranking }
-
-“一直保持”对应长期维持成绩和排名。相比单次考试，稳定表现更依赖持续投入、课程优先级管理和复习节奏。
-
-## 不得不上的课 { #required-courses }
-
-这一说法指培养方案中的必修课程。安排科研和竞赛时，需要先确认课程考核、学分要求和时间冲突，避免长期挤压基本学习任务。
+- [历年题](topics/courses/past-papers.md)
+- [加权排名](topics/courses/weighted-ranking.md)
+- [一直保持](topics/courses/keep-ranking.md)
+- [不得不上的课](topics/courses/required-courses.md)

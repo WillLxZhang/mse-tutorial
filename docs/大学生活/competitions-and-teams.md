@@ -5,40 +5,16 @@ hide:
 
 # 竞赛与团队 { .section-page-title }
 
-本页汇总经验文章中反复出现的竞赛、项目和学生团队。比赛赛制、项目安排与团队招募可能调整，请以当年通知为准。
+本页汇总竞赛、项目和学生团队相关词条。
 
-## 成图大赛 { #chengtu }
+## 词条 { .section-subtitle }
 
-文章中的“成图”和“成图大赛”指向同一条目。它常出现在机械相关同学的早期竞赛经历中，可用于训练工程图学、建模表达和团队协作能力。
-
-## 周培源力学竞赛 { #zhou-peiyuan }
-
-周培源大学生力学竞赛与力学基础课程联系较紧。准备时可以结合课程知识、历年题型和专项训练安排时间。
-
-## 蓝桥杯 { #lanqiao }
-
-蓝桥杯在经验文章中对应 C++ 竞赛经历。它可以作为编程训练入口，实际投入应结合个人方向和课程安排衡量。
-
-## 美赛 { #mcm }
-
-“美赛”通常指美国大学生数学建模竞赛。参赛过程涉及建模、编程、论文写作和团队分工，适合作为综合项目经历。
-
-## FOCUS { #focus }
-
-经验文章中的 FOCUS 指作者参加的冬令营活动，并在 AI 视觉组接触 Python 与人工智能基础。具体组织形式和招募安排待后续补充。
-
-## ChinaMaker { #chinamaker }
-
-ChinaMaker 是经验作者参加项目实践时加入的团队。团队方向、招募方式与历年项目待后续补充。
-
-## STAR { #star }
-
-STAR 是经验作者在机械学院接触的学生团队。团队全称、研究方向与加入方式待后续补充。
-
-## 狼牙 { #langya }
-
-“狼牙”是经验作者在电信相关方向接触的学生团队。团队全称、训练内容与招募方式待后续补充。
-
-## 大创项目 { #innovation-project }
-
-“大创”通常指大学生创新创业训练计划项目。参与者可能承担选题、立项、中期检查、实验开发和结题等工作，可以借此体验一段较完整的项目周期。
+- [成图大赛](topics/competitions/chengtu.md)
+- [周培源力学竞赛](topics/competitions/zhou-peiyuan.md)
+- [蓝桥杯](topics/competitions/lanqiao.md)
+- [美赛](topics/competitions/mcm.md)
+- [FOCUS](topics/competitions/focus.md)
+- [ChinaMaker](topics/competitions/chinamaker.md)
+- [STAR](topics/competitions/star.md)
+- [狼牙](topics/competitions/langya.md)
+- [大创项目](topics/competitions/innovation-project.md)

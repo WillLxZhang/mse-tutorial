@@ -5,28 +5,13 @@ hide:
 
 # 专业方向 { .section-page-title }
 
-本页整理经验文章中出现的专业选择与研究方向。不同院系对同一方向的课程设置和研究重点可能不同，选择时可以继续查看具体实验室和培养方案。
+本页汇总专业选择与研究方向相关词条。
 
-## 转专业 { #major-transfer }
+## 词条 { .section-subtitle }
 
-转专业涉及申请条件、成绩要求、名额和考核安排。准备时应尽早查阅当年通知，并同步考虑转入后的课程衔接和培养方案差异。
-
-## 机器人方向 { #robotics }
-
-机器人方向横跨机械、控制、计算机和电子信息等领域。可以从课程、项目和实验室经历中逐步判断自己更偏向机构、控制、感知还是智能算法。
-
-## 具身智能 { #embodied-ai }
-
-具身智能关注智能体通过感知、决策和行动与物理环境交互。机械背景同学可能从机器人机构、控制、视觉、触觉、操作或系统部署等方向切入。
-
-## 集成 { #integrated-circuits }
-
-文章中的“集成”主要指集成电路相关院系或方向。机械背景申请这一方向时，需要关注目标院系的课程要求、研究内容和跨专业考核方式。
-
-## 传统机械 { #traditional-mechanical }
-
-经验文章中的“传统机械”用于概括机械设计、制造、力学和传动等经典方向。这个称呼覆盖范围较广，可以进一步查看具体课程、实验室和研究课题。
-
-## 自动化 { #automation }
-
-自动化相关方向常涉及控制、感知、规划和系统集成。机械背景同学跨向自动化时，可以结合目标项目补充数学、控制和编程基础。
+- [转专业](topics/majors/major-transfer.md)
+- [机器人方向](topics/majors/robotics.md)
+- [具身智能](topics/majors/embodied-ai.md)
+- [集成](topics/majors/integrated-circuits.md)
+- [传统机械](topics/majors/traditional-mechanical.md)
+- [自动化](topics/majors/automation.md)
