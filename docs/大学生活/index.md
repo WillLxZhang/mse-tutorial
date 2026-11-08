@@ -7,12 +7,12 @@ hide:
 
 >这里有华科机械同学在课程、科研、竞赛、社团和校园生活方面的经验，帮助同学们探索大学生活。
 
-## [课程与学业](courses-and-study.md) { .life-category-title }
+### [课程与学业](courses-and-study.md) { .life-category-title }
 
-## [专业方向](majors-and-directions.md) { .life-category-title }
+### [专业方向](majors-and-directions.md) { .life-category-title }
 
-## [科研](research.md) { .life-category-title }
+### [科研](research.md) { .life-category-title }
 
-## [竞赛与团队](competitions-and-teams.md) { .life-category-title }
+### [竞赛与团队](competitions-and-teams.md) { .life-category-title }
 
-## [校园生活与资源](campus-life-and-resources.md) { .life-category-title }
+### [校园生活与资源](campus-life-and-resources.md) { .life-category-title }
