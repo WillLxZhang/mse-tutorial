@@ -13,6 +13,7 @@ hide:
 - [美赛](topics/competitions/mcm.md)
 - [FOCUS](topics/competitions/focus.md)
 - [ChinaMaker](topics/competitions/chinamaker.md)
+- [Robocon](topics/competitions/robocon.md)
 - [STAR](topics/competitions/star.md)
 - [狼牙](topics/competitions/langya.md)
 - [大创项目](topics/competitions/innovation-project.md)
