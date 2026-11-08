@@ -4,9 +4,9 @@ hide:
 ---
 
 # 保研 { .section-page-title }
->M.S.：硕士
->PhD：博士
-
+>本页为保研经验贴
+>M.S.：硕士；PhD：博士
+>每页中部分加粗的字体涵盖链接，如果对该词想要了解可直接点击，会链接到“大学生活”栏目中的网页
 ## 2023 级（27 fall） { .section-subtitle }
 
 - [WILL Z：上交 PhD @自感](WILL%20Z-shangjiao-phd-zigan.md)
@@ -16,6 +16,3 @@ hide:
 - [小茗同学：清华 @清深](xiaoming-sigs.md)
 - [混沌蝴蝶：华科 M.S. @机械](hundunhudie-hust-mse-ms.md)
 - [XxSc：华科 M.S. @机械](xxsc-hust-ms-mse.md)
-
-## 2021 级（25 fall） { .section-subtitle }
-- [Kai：浙大 M.S. @控制](kai-zheda-ms-kongzhi.md)
