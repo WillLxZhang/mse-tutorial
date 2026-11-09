@@ -9,11 +9,11 @@ hide:
 
 <div class="article-box" markdown="1">
 
-从 AI 基础概念、Model–Agent–Harness 架构，到 AI 辅助软件开发的完整实践指南。
+如何成为 AI 专家？
 
 ## 一、什么是 Vibe Coding？
 
-**Vibe Coding是一种以自然语言驱动的软件开发方式。**
+** Vibe Coding 是一种以自然语言驱动的软件开发方式。**
 
 我们不再和古早猿类一样需要手敲每一行代码，而是可以尝试通过使用豆包语言输入法等工具，直接用嘴吐出的自然语言描述需求，AI吃了Token钱就会心甘情愿把活干掉。
 
