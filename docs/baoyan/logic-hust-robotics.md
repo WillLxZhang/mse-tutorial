@@ -1,4 +1,4 @@
-# **logic - 华科 M.S. @机器人** { .personal-page-title }
+# **logic - 华科 @机器人** { .personal-page-title }
 
 > 机械科学与工程学院 - 2023 级 - 机器人 2302 班
 
