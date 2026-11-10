@@ -11,7 +11,7 @@ hide:
 ## 2023 级（27 fall） { .section-subtitle }
 
 - [WILL Z：上交 PhD @自感](WILL%20Z-shangjiao-phd-zigan.md)
-- [logic：华科 M.S. @机器人](logic-hust-robotics.md)
+- [logic - 华科 @机械](logic-hust-robotics.md)
 - [Kevin Du：北航 M.S. @具身院](Kevin%20Du-beihang-ms-embodied.md)
 - [XxSc：华科 M.S. @机械](xxsc-hust-ms-mse.md)
 - [HalfMew：清华 PhD @机械](HalfMew-thu-phd-mse.md)

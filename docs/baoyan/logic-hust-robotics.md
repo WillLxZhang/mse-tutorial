@@ -1,4 +1,4 @@
-# **logic - 华科 @机器人** { .personal-page-title }
+# **logic - 华科 @机械 - 机器人方向** { .personal-page-title }
 
 > 机械科学与工程学院 - 2023 级 - 机器人 2302 班
 > 写在前面
