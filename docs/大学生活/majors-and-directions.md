@@ -8,7 +8,6 @@ hide:
 本页涵盖了专业选择与研究方向等相关内容。
 
 - [转专业](topics/majors/major-transfer.md)
-- [机器人方向](topics/majors/robotics.md)
 - [机器人工程](topics/majors/robotics-engineering.md)
 - [嵌入式](topics/majors/embedded-systems.md)
 - [具身智能](topics/majors/embodied-ai.md)

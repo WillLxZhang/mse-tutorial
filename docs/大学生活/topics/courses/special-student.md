@@ -5,7 +5,7 @@ hide:
 
 # 特优生 { .section-page-title }
 
-> [课程与学业](../../courses-and-study.md)
+> [校园生活与资源](../../campus-life-and-resources.md)
 
 <div class="article-box" markdown="1">
 

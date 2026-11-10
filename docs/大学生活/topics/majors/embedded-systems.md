@@ -9,6 +9,6 @@ hide:
 
 <div class="article-box" markdown="1">
 
-> by logic
+> by [logic](../../../baoyan/logic-hust-robotics.md)
 
 </div>

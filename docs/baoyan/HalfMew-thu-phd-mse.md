@@ -1,6 +1,6 @@
 # **HalfMew - 清华 PhD @机械** { .personal-page-title }
 
-> 机械学院 - 2023 级 - 机设（[**机器人方向**](../大学生活/topics/majors/robotics.md)）
+> 机械学院 - 2023 级 - 机设（**机器人方向**）
 
 ## **基本信息**
 
