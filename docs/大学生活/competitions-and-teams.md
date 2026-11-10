@@ -18,6 +18,7 @@ hide:
 
 ## 竞赛
 
+- [挑战杯](topics/competitions/challenge-cup.md)
 - [成图大赛](topics/competitions/chengtu.md)
 - [周培源力学竞赛](topics/competitions/zhou-peiyuan.md)
 - [蓝桥杯](topics/competitions/lanqiao.md)

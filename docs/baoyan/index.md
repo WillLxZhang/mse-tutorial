@@ -17,3 +17,4 @@ hide:
 - [小茗同学：清华 @清深](xiaoming-sigs.md)
 - [混沌蝴蝶：华科 M.S. @机械](hundunhudie-hust-mse-ms.md)
 - [XxSc：华科 M.S. @机械](xxsc-hust-ms-mse.md)
+- [logic：华科 M.S. @机器人](logic-hust-ms-robotics.md)

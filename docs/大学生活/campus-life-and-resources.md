@@ -11,3 +11,4 @@ hide:
 
 - [特优生](topics/courses/special-student.md)
 - [国家奖学金](topics/courses/national-scholarship.md)
+- [社会奖学金](topics/courses/social-scholarship.md)

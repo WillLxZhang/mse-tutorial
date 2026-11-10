@@ -13,7 +13,7 @@
 - **科研经历：** 四段科研经历
 - **论文产出：** 两篇产出（一共一，一末位）
 - **竞赛：** 无
-- **奖项：** [**国家奖学金**](../大学生活/topics/courses/national-scholarship.md)、各类社会奖助学金若干
+- **奖项：** [**国家奖学金**](../大学生活/topics/courses/national-scholarship.md)、各类[**社会奖学金**](../大学生活/topics/courses/social-scholarship.md)若干
 - **学习以外：**
     - 机器人2301班长
     - 喜欢搞新活动 IP，作品有 MSE 羽球嘉年华、英语角和这个网站
