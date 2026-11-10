@@ -17,7 +17,7 @@
 <div class="article-box" markdown="1">
 
 
-23 年入学机械类普通班，[**转专业**](../大学生活/topics/majors/major-transfer.md)失败，遂卷加权，第一学期成绩排名 2.17%。大一下参加[**成图**](../大学生活/topics/competitions/chengtu.md)拿了个人省二，没进集训。后续分流至**机器人方向**，在班上担任**学习委员**至今。
+23 年入学机械类普通班，[**转专业**](../大学生活/topics/majors/major-transfer.md)失败，遂卷加权，第一学期成绩排名 2.17%。大一下参加[**成图**](../大学生活/topics/competitions/chengtu.md)拿了个人省二，没进集训。后续分流至[**机器人方向**](../大学生活/topics/majors/robotics-engineering.md)，在班上担任**学习委员**至今。
 
 大二、大三开始接触竞赛，加了一个机械的团队 “[**STAR**](../大学生活/topics/competitions/star.md)” 和一个电信的团队，同时拿了一个水赛国二和一个团体国二。中途也参加过一些企业主办的比赛，但是对能力的锻炼很有限。最终的加权为 89.37（约 10%），竞赛加分 6 分，[综合排名](../大学生活/topics/courses/weighted-ranking.md)约 15%。
 

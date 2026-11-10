@@ -34,13 +34,13 @@ nav:
   - 保研:
       - 保研板块: baoyan/index.md
       - WILL Z：上交 PhD @自感: "baoyan/WILL Z-shangjiao-phd-zigan.md"
+      - logic：华科 M.S. @机器人: "baoyan/logic-hust-robotics.md"
       - Kevin Du：北航 M.S. @具身院: "baoyan/Kevin Du-beihang-ms-embodied.md"
+      - XxSc：华科 M.S. @机械: "baoyan/xxsc-hust-ms-mse.md"
       - HalfMew：清华 PhD @机械: "baoyan/HalfMew-thu-phd-mse.md"
+      - 混沌蝴蝶：华科 M.S. @机械: "baoyan/hundunhudie-hust-mse-ms.md"
       - NG：北大 PhD @集成: "baoyan/NG-pku-phd-integrated-circuits.md"
       - 小茗同学：清华 @清深: "baoyan/xiaoming-sigs.md"
-      - 混沌蝴蝶：华科 M.S. @机械: "baoyan/hundunhudie-hust-mse-ms.md"
-      - XxSc：华科 M.S. @机械: "baoyan/xxsc-hust-ms-mse.md"
-      - logic：华科 M.S. @机器人: "baoyan/logic-hust-robotics.md"
   - 考研: 考研/index.md
   - 留学: 留学/index.md
   - 关于: about.md
