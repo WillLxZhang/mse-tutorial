@@ -37,7 +37,7 @@
 
     5. [**蓝桥杯**](../大学生活/topics/competitions/lanqiao.md) C++ 省三
 
-- **荣誉**：[**国家奖学金**](../大学生活/topics/courses/national-scholarship.md) ×2、**校级三好学生** ×3、本科[**特优生**](../大学生活/topics/courses/special-student.md)
+- **荣誉**：[**国家奖学金**](../大学生活/topics/courses/national-scholarship.md) ×2、[**校级三好学生**](../大学生活/topics/courses/national-scholarship.md) ×3、本科[**特优生**](../大学生活/topics/courses/special-student.md)
 
 - **其他**：担任院团委组织部成员、"无人机系统与工程"微专业班长。文体经历丰富，但不影响保研。志愿/二课时长：73/110h
 
