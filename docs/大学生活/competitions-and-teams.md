@@ -13,6 +13,7 @@ hide:
 - [ChinaMaker](topics/competitions/chinamaker.md)
 - [STAR](topics/competitions/star.md)
 - [VEX](topics/competitions/vex.md)
+- [Robocon](topics/competitions/robocon.md)
 - [ONE](topics/competitions/one.md)
 - [思飞](topics/competitions/sifei.md)
 - [狼牙](topics/competitions/langya.md)
@@ -25,5 +26,4 @@ hide:
 - [周培源力学竞赛](topics/competitions/zhou-peiyuan.md)
 - [蓝桥杯](topics/competitions/lanqiao.md)
 - [美赛](topics/competitions/mcm.md)
-- [Robocon](topics/competitions/robocon.md)
 - [大创项目](topics/competitions/innovation-project.md)
