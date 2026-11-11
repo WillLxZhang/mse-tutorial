@@ -12,6 +12,7 @@ hide:
 - [FOCUS](topics/competitions/focus.md)
 - [ChinaMaker](topics/competitions/chinamaker.md)
 - [STAR](topics/competitions/star.md)
+- [VEX](topics/competitions/vex.md)
 - [ONE](topics/competitions/one.md)
 - [思飞](topics/competitions/sifei.md)
 - [狼牙](topics/competitions/langya.md)
@@ -25,5 +26,4 @@ hide:
 - [蓝桥杯](topics/competitions/lanqiao.md)
 - [美赛](topics/competitions/mcm.md)
 - [Robocon](topics/competitions/robocon.md)
-- [VEX](topics/competitions/vex.md)
 - [大创项目](topics/competitions/innovation-project.md)
