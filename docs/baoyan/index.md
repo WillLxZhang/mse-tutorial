@@ -18,3 +18,4 @@ hide:
 - [混沌蝴蝶：华科 M.S. @机械](hundunhudie-hust-mse-ms.md)
 - [NG：北大 PhD @集成](NG-pku-phd-integrated-circuits.md)
 - [小茗同学：清华 @清深](xiaoming-sigs.md)
+- [LLL：上交 PhD @机动学院工业工程](lll-sjtu-phd-industrial-engineering.md)

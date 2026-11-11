@@ -11,4 +11,6 @@ hide:
 
 > by [Kevin Du](../../../baoyan/Kevin%20Du-beihang-ms-embodied.md)
 
+> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
+
 </div>

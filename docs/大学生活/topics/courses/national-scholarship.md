@@ -13,4 +13,6 @@ hide:
 
 用于奖励每学年表现突出的学生，对背景的考量一般分为学业、科研竞赛、学生工作等方面，同时对答辩表现力存在一定的要求。
 
+> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
+
 </div>

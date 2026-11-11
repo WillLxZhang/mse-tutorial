@@ -36,4 +36,6 @@ $$
 
 每届的加分规则都不一样，比如比赛类型划分、还有0.3这个系数的大小，请务必以自己大三时收到的通知为准
 
+> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
+
 </div>

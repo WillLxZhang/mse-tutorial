@@ -18,4 +18,6 @@ hide:
 
 历年题是仅次于书本知识、课后作业以外最宝贵的考试准备资源，一定要想办法多弄到一些
 
+> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
+
 </div>
