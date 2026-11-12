@@ -11,7 +11,11 @@ hide:
 
 加权成绩与排名是裸分排名，综合排名是加了竞赛等因素之后的排名。
 
+</div>
+
 ## 加权成绩
+
+<div class="article-box" markdown="1">
 
 这学期你修了 A / B / C 三门课，A 有 4 学分，B 有 5 学分，C 有 2 学分。你分别考了 90 / 88 / 93，恭喜你，你这学期的加权成绩为：
 
@@ -26,7 +30,11 @@ $$
 
 前六学期的奖学金等评选都是根据加权成绩的排名进行
 
+</div>
+
 ## 综合排名
+
+<div class="article-box" markdown="1">
 
 以机械学院为例，保研名额的确定以综合排名来进行，体现了全方面发展的导向。
 
@@ -36,6 +44,6 @@ $$
 
 每届的加分规则都不一样，比如比赛类型划分、还有0.3这个系数的大小，请务必以自己大三时收到的通知为准
 
-> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
-
 </div>
+
+> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)

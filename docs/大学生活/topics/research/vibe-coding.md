@@ -11,7 +11,11 @@ hide:
 
 如何成为 AI 专家？
 
+</div>
+
 ## 一、什么是 Vibe Coding？
+
+<div class="article-box" markdown="1">
 
 ** Vibe Coding 是一种以自然语言驱动的软件开发方式。**
 
@@ -23,13 +27,21 @@ hide:
 
 AI 可以代替大量代码编写劳动，但不能替代开发者对问题本身的理解与判断。
 
+</div>
+
 ---
 
 ## 二、理解 Model、Agent 与 Harness
 
+<div class="article-box" markdown="1">
+
 如果你要和朋友吹牛逼，请不要满嘴Codex薄肌大水沙县小吃了，你需要一些专业术语...
 
+</div>
+
 ### 2.1 Model：模型
+
+<div class="article-box" markdown="1">
 
 LLM Model 主要负责根据输入的上下文生成输出，例如文本、代码、工具调用请求等。模型的参数量/训练方式等等直接决定其生成性能。
 
@@ -42,7 +54,11 @@ LLM Model 主要负责根据输入的上下文生成输出，例如文本、代�
 
 在网页端，你就大都可以和这些模型进行对话；在更好的Agent和Harness架构下，模型才得以发挥其完整性能。
 
+</div>
+
 ### 2.2 Agent：智能体
+
+<div class="article-box" markdown="1">
 
 Agent 是一种能够围绕目标进行多步骤决策、调用工具并利用反馈继续执行任务的系统。
 
@@ -71,7 +87,11 @@ Agent 可能执行如下过程：
 
 模型是其中的决策核心，Agent 则体现为完整的任务执行机制。
 
+</div>
+
 ### 2.3 Harness：智能体运行框架
+
+<div class="article-box" markdown="1">
 
 Harness 是围绕模型构建的执行、协调与约束系统。
 
@@ -108,15 +128,23 @@ Harness 是围绕模型构建的执行、协调与约束系统。
 
 Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，而是结合了模型、工具和执行框架的完整系统。
 
+</div>
+
 ---
 
 ## 三、现代 AI 知识与技术方向
+
+<div class="article-box" markdown="1">
 
 现在 AI 领域每天都有一堆新概念，什么 LLM、VLM、VLA、WAM，听起来一个比一个唬人。主要还是为了骗骗投资人啊，我们广大学生别被骗了。也没必要把每个东西都学一遍，至少先知道大家在研究什么，别一提 AI 就只想到豆包和 DeepSeek。
 
 下面简单介绍几个主要方向和常见术语。这里只负责扫盲，具体原理和教程会在后面附链接。
 
+</div>
+
 ### 3.1 基础模型与神经网络
+
+<div class="article-box" markdown="1">
 
 - **MLP（多层感知机）**：最基础的神经网络之一，本质上是一堆矩阵运算加非线性变换，很多复杂模型里面依然有它。
 
@@ -140,8 +168,11 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 - **Fine-tuning（微调）**：在已有模型基础上继续训练，让它更适合某个领域或任务。
 
+</div>
 
 ### 3.2 AI Infra：人工智能基础设施
+
+<div class="article-box" markdown="1">
 
 简单理解就是研究怎么让 AI 跑得更快、更便宜、更稳定，毕竟再聪明的模型也得有显卡给它算。
 
@@ -161,8 +192,11 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 - **Distributed Training（分布式训练）**：一张显卡装不下、算不动，那就让很多张显卡一起干活。
 
+</div>
 
 ### 3.3 Agent 与强化学习
+
+<div class="article-box" markdown="1">
 
 如果说 LLM 主要解决「怎么生成回答」，Agent 更关心「怎么完成任务」。
 
@@ -182,8 +216,11 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 - **Memory（记忆）**：把重要信息保存在当前上下文之外，让 Agent 在后续任务中还能利用。
 
+</div>
 
 ### 3.4 多模态与具身智能
+
+<div class="article-box" markdown="1">
 
 语言模型会说话还不够，人类能看、能听、能动，AI 自然也想把这些能力补上。
 
@@ -201,8 +238,11 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 - **Sim2Real（仿真到现实）**：先在模拟器里训练机器人，再想办法让学到的技能在真实机器人上也能用。
 
+</div>
 
 ### 3.5 Computer Vision 与 3D Vision
+
+<div class="article-box" markdown="1">
 
 计算机视觉研究怎么让机器理解图像和三维世界，算是 AI 领域历史比较悠久的方向。
 
@@ -233,9 +273,13 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 **你不需要把这些东西全部学会，至少下次看到某个缩写时，知道它大概在解决什么问题，就已经达到目的了。**
 
+</div>
+
 ---
 
 ## 四、如何 Vibe Coding？
+
+<div class="article-box" markdown="1">
 
 说完 AI 的基本概念，终于进入正题。
 
@@ -243,13 +287,21 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 接下来建议从这几个方面开始尝试
 
+</div>
+
 ### 4.1 至少看得懂一点代码
+
+<div class="article-box" markdown="1">
 
 不需要手搓什么高深算法，但 Python 的变量、循环、函数、类这些基本东西最好认识，Linux 命令行和 Git 也建议了解一下。
 
 至少 AI 改炸了项目，你得知道去哪里找问题，而不是只能再问另一个 AI。
 
+</div>
+
 ### 4.2 最重要的是抽象能力
+
+<div class="article-box" markdown="1">
 
 比起自己写代码，更重要的是能把一个模糊的想法拆解成清晰的需求。
 
@@ -263,13 +315,21 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 推荐使用Obisdian等Markdown编辑器或者插件，MD是比Word伟大一百倍的格式。
 
+</div>
+
 ### 4.3 对专业问题要有基本理解
+
+<div class="article-box" markdown="1">
 
 如果只是写个网页、爬个数据，问题倒不大；如果要用 AI 做算法或者科研，最好先理解基本原理。
 
 否则 AI 写出来一套能跑的代码，你甚至不知道它到底实现了什么，更别说判断结果对不对了。
 
+</div>
+
 ### 4.4 必须学会使用 Coding Agent
+
+<div class="article-box" markdown="1">
 
 建议从 Codex、Claude Code、Cursor 这类工具开始，而不是永远停留在网页聊天框里让 AI 输出代码，然后自己复制粘贴。
 
@@ -277,7 +337,11 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 不过工具权限也要看清楚，涉及删除文件、执行陌生命令等操作时别无脑放行。
 
+</div>
+
 ### 4.5 别让 AI 一上来就乱写
+
+<div class="article-box" markdown="1">
 
 对于已有项目，可以先让 Agent 阅读代码并介绍项目结构。
 
@@ -285,7 +349,11 @@ Codex、Claude Code 等 AI Coding 产品，通常不是单纯的模型接口，�
 
 简单任务没必要搞这么多流程，复杂任务则最好拆成几个可以验证的小步骤。
 
+</div>
+
 ### 4.6 一定要学会测试和 Git
+
+<div class="article-box" markdown="1">
 
 AI 说「任务完成」不代表程序真的正确，自己至少运行一下看看效果。
 
@@ -293,17 +361,25 @@ AI 说「任务完成」不代表程序真的正确，自己至少运行一下�
 
 这样至少在 Agent 把项目改炸以后，你还有机会恢复现场。
 
+</div>
+
 ### 4.7 Prompt 没必要写成八股文
+
+<div class="article-box" markdown="1">
 
 网上那些要求 AI 扮演「拥有二十年经验的世界顶级架构师」的神秘 Prompt，没必要过度迷信。
 
 对于现代 Coding Agent，把**需求、项目背景、限制条件和验收标准**讲清楚，通常比堆砌角色设定更有价值。自己多尝试不同的Prompt，对比实现能力更重要。
+
+</div>
 
 ### 说了这么多，最重要的一定是去用，建议看完一点教程大家先去往Deepseek里充个30块钱，然后尝试自己的第一次Vibe，一切问题和经验都是在实践中发现总结出来的。
 
 ---
 
 ## 五、个人瞎总结
+
+<div class="article-box" markdown="1">
 
 写这篇教程不是为了让大家背一大堆 AI 缩写，更不是要求所有人转行学人工智能。
 
@@ -317,7 +393,11 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了，很喜欢
 
 以上，祝大家 Vibe Coding 愉快，少调环境，少烧 Token。
 
+</div>
+
 ## 六、推荐学习：
+
+<div class="article-box" markdown="1">
 
 不建议做题思维学AI，即没有必要看完教程再实践，做到哪学到哪
 
@@ -336,6 +416,6 @@ AI Agent：
 	https://www.bilibili.com/video/BV16jyuBBEom
 	https://www.bilibili.com/video/BV1if4y147hS/
 
-> by Felix
-
 </div>
+
+> by Felix

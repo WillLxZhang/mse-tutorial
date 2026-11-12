@@ -11,6 +11,6 @@ hide:
 
 自动化相关方向常涉及控制、感知、规划和系统集成
 
-> by [WILL Z](../../../baoyan/WILL%20Z-shangjiao-phd-zigan.md)
-
 </div>
+
+> by [WILL Z](../../../baoyan/WILL%20Z-shangjiao-phd-zigan.md)

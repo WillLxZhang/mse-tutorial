@@ -24,6 +24,6 @@ hide:
 
 大家尽量在申请季之前明确硕博之选，结合自己的科研兴趣、职业发展目标、风险承受能力和具体课题组情况综合判断。
 
-> by [小茗同学](../../../baoyan/xiaoming-sigs.md)
-
 </div>
+
+> by [小茗同学](../../../baoyan/xiaoming-sigs.md)

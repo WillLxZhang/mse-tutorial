@@ -11,8 +11,8 @@ hide:
 
 包括联系校内外导师、参加实验室项目、完成复现任务或协助已有课题
 
+</div>
+
 > by [WILL Z](../../../baoyan/WILL%20Z-shangjiao-phd-zigan.md)
 
 > by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
-
-</div>

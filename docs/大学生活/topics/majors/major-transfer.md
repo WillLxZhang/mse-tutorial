@@ -11,7 +11,6 @@ hide:
 
 华科对转专业很宽容：
 
+</div>
 
 > by [WILL Z](../../../baoyan/WILL%20Z-shangjiao-phd-zigan.md)
-
-</div>
