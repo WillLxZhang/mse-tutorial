@@ -109,11 +109,11 @@
 
 <div class="maintainer-profiles">
   <a class="maintainer-profile" href="https://github.com/WillLxZhang" aria-label="WILL Z 的 GitHub 主页">
-    <img src="../image-1.jpg" alt="WILL Z" loading="lazy">
+    <img src="docs/image-1.jpg" alt="WILL Z" loading="lazy">
     <span>WILL Z</span>
   </a>
   <a class="maintainer-profile" href="https://github.com/FelixtheFelinae" aria-label="Felix 的 GitHub 主页">
-    <img src="../image-2.png" alt="Felix" loading="lazy">
+    <img src="docs/image-2.png" alt="Felix" loading="lazy">
     <span>Felix</span>
   </a>
 </div>
