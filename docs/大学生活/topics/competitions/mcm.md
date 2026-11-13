@@ -9,8 +9,7 @@ hide:
 
 <div class="article-box" markdown="1">
 
+</div>
+
 > by [NG](../../../baoyan/NG-pku-phd-integrated-circuits.md)
 
-> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
-
-</div>

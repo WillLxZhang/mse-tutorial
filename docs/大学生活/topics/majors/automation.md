@@ -9,7 +9,7 @@ hide:
 
 <div class="article-box" markdown="1">
 
-自动化相关方向常涉及控制、感知、规划和系统集成
+
 
 </div>
 

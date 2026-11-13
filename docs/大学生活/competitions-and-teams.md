@@ -27,3 +27,5 @@ hide:
 - [蓝桥杯](topics/competitions/lanqiao.md)
 - [美赛](topics/competitions/mcm.md)
 - [大创项目](topics/competitions/innovation-project.md)
+
+>如果想要进一步了解机械竞赛及其相关知识向大家推荐 25 级同学开发的 robuddy.wiki，

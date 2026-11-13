@@ -9,6 +9,7 @@ hide:
 
 <div class="article-box" markdown="1">
 
-> by [Kevin Du](../../../baoyan/Kevin%20Du-beihang-ms-embodied.md)
 
 </div>
+
+> by [Kevin Du](../../../baoyan/Kevin%20Du-beihang-ms-embodied.md)

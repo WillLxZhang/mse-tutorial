@@ -16,3 +16,5 @@ hide:
 需要主动联系导师时，可参考[套磁](contacting-supervisors.md)。
 
 </div>
+
+> by Will Z

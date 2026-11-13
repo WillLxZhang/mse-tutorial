@@ -14,5 +14,3 @@ hide:
 </div>
 
 > by [WILL Z](../../../baoyan/WILL%20Z-shangjiao-phd-zigan.md)
-
-> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
