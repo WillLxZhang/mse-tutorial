@@ -47,5 +47,3 @@ hide:
 投稿人可以直接套用 [经验文章模板](page-templates/article.md)
 
 
-
-详细规则见[内容政策](policies/content-policy.md)、[隐私与 AI 处理](policies/privacy-ai.md)和[勘误、申诉与撤回](policies/corrections.md)。
