@@ -8,6 +8,8 @@ hide:
 本站接收大学生活、课程、科研、竞赛、实习、保研、考研、留学和其他与校园成长有关的一手经验，请大家踊跃投稿！
 
 ## 投稿前请确认
+<div class="article-box" markdown="1">
+
 
 - 你是否同意公开发布。
 - 你是否匿名。
@@ -18,7 +20,12 @@ hide:
 - 你是否理解稿件可能由网站维护者/本地自动化工具和 AI 辅助检查、排版与润色。
 - 你是否已经核对自己帖子中院校、时间、成绩、排名、Offer、论文和其他事实性信息。
 
+</div>
+
+
 ## 投稿方式
+<div class="article-box" markdown="1">
+
 
 请打包发送至：**2296937031@qq.com**
 
@@ -40,10 +47,15 @@ hide:
 
 请勿发送聊天截图、API Key 等隐私内容或与文章无关的内部资料。
 
+</div>
+
 ## 稿件格式
+
+<div class="article-box" markdown="1">
 
 支持 Markdown、Word 或纯文本。图片请使用清晰的版本。
 
 投稿人可以直接套用 [经验文章模板](page-templates/article.md)
 
 
+</div>
