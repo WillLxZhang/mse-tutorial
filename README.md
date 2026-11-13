@@ -1,9 +1,7 @@
 
-# **HUST MSE Tutorial** { .section-page-title }
+# 👋 **Welcome to HUST MSE Tutorial !**
 
-👋 **Welcome to HUST MSE !**
-
-信息差永远存在。我们希望能够搭建一个平台，帮助同学们获得更广阔的视野，能够更从容地规划和管理自己的大学生活。
+## **信息差永远存在。我们希望能够搭建一个平台，帮助同学们获得更广阔的视野，能够更从容地规划和管理自己的大学生活。**
 
 ## 项目说明
 
