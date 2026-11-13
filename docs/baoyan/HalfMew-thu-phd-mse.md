@@ -12,7 +12,7 @@
 - **裸分成绩排名：**93.02（1/179）
 - **科研经历：**一篇PRCV一作、一篇SCI 1区二作
 - **竞赛：**数竞省一、电赛省一
-- **荣誉奖项：**本科[**特优生**](../大学生活/topics/courses/special-student.md)、[**国家奖学金**](../大学生活/topics/courses/national-scholarship.md)等
+- **荣誉奖项：**本科[**特优生**](../大学生活/topics/campus/special-student.md)、[**国家奖学金**](../大学生活/topics/campus/national-scholarship.md)等
 - **最终去向：**清华大学机械工程系机电所，方向为具身操作
 
 </div>

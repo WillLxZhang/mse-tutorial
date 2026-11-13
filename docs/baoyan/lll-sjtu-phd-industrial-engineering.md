@@ -20,7 +20,7 @@
     - 两次[**美赛**](../大学生活/topics/competitions/mcm.md) S 奖
     - [**成图大赛**](../大学生活/topics/competitions/chengtu.md)省一
     - 其余几个省奖
-- **荣誉奖项：** [**国家奖学金**](../大学生活/topics/courses/national-scholarship.md)、[**三好学生**](../大学生活/topics/courses/national-scholarship.md)等奖励、奖学金若干
+- **荣誉奖项：** [**国家奖学金**](../大学生活/topics/campus/national-scholarship.md)、[**三好学生**](../大学生活/topics/campus/national-scholarship.md)等奖励、奖学金若干
 - **最终去向：** 上海交通大学机动学院工业工程博士
 
 </div>

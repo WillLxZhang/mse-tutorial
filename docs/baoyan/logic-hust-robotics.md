@@ -30,7 +30,7 @@
     - AIC 人工智能算法精英大赛 省一
     - 全国三维数字化创新设计大赛 省一
     - 若干省奖
-- **个人荣誉：** 一次[**国家奖学金**](../大学生活/topics/courses/national-scholarship.md)，一次[**三好学生**](../大学生活/topics/courses/national-scholarship.md)奖学金，一项[**社会奖学金**](../大学生活/topics/courses/social-scholarship.md)
+- **个人荣誉：** 一次[**国家奖学金**](../大学生活/topics/campus/national-scholarship.md)，一次[**三好学生**](../大学生活/topics/campus/national-scholarship.md)奖学金，一项[**社会奖学金**](../大学生活/topics/campus/social-scholarship.md)
 - **其他经历：** 科创团队副队长，[**嵌入式**](../大学生活/topics/majors/embedded-systems.md)组组长
 - **最终去向：** 本校熟悉的强组保研，研究方向为机器人技术
 

@@ -40,7 +40,7 @@
 
     6. 若干省级奖项
 
-- **荣誉奖项：** [**国家奖学金**](../大学生活/topics/courses/national-scholarship.md)、[**三好学生**](../大学生活/topics/courses/national-scholarship.md)、[**特优生**](../大学生活/topics/courses/special-student.md)
+- **荣誉奖项：** [**国家奖学金**](../大学生活/topics/campus/national-scholarship.md)、[**三好学生**](../大学生活/topics/campus/national-scholarship.md)、[**特优生**](../大学生活/topics/campus/special-student.md)
 
 - **其他经历：** 班级组织委员；爱好户外运动（徒步、攀岩、中长跑）；偶尔参加辩论；参与多项公益社会实践；（对保研无直接作用，但可作为印象点）
 
