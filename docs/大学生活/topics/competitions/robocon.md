@@ -11,7 +11,7 @@ hide:
 
 <div class="article-box" markdown="1">
 
-HUST ROBOCON 机器人队是华科历史最久、投入也最大的机器人竞赛团队之一，2003年建队于机械学院。ROBOCON 主要以比赛为导向：全队专攻全国大学生机器人大赛 ROBOCON（简称 RC）。ROBOCON比赛是国内技术挑战性最强、影响力最大的大学生机器人赛事之一，国内赛冠军会被选派代表中国去打亚太地区的 ABU ROBOCON。
+**HUST ROBOCON** 机器人队是华科历史最久、投入也最大的机器人竞赛团队之一，2003年建队于机械学院。ROBOCON 主要以比赛为导向：全队专攻全国大学生机器人大赛 ROBOCON（简称 RC）。ROBOCON比赛是国内技术挑战性最强、影响力最大的大学生机器人赛事之一，国内赛冠军会被选派代表中国去打亚太地区的 ABU ROBOCON。
 
 </div>
 
@@ -31,7 +31,7 @@ HUST ROBOCON 机器人队是华科历史最久、投入也最大的机器人竞�
 
 </div>
 
-## 加入HUSTROBOCON
+## 加入HUST ROBOCON
 
 <div class="article-box" markdown="1">
 

@@ -8,9 +8,6 @@ hide:
 > [专业方向](../../majors-and-directions.md)
 
 
-
-
-
 ## 专业介绍
 
 <div class="article-box" markdown="1">
