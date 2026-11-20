@@ -22,4 +22,3 @@ hide:
 
 - [嵌入式](topics/majors/embedded-systems.md)
 - [具身智能](topics/majors/embodied-ai.md)
-- [传统机械](topics/majors/traditional-mechanical.md)
