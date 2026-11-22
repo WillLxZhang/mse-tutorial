@@ -11,14 +11,17 @@ hide:
 
 “申请季”分为内地升学和出国境两种，涵盖材料准备、联系导师、参营、面试、考核和最终确认等环节。
 
-内地升学的申请季流程多指保研，具体可见 D:\Learning\学生工作\MSE_Tutorial_GitHub\docs\大学生活\topics\courses\recommendation-process.md
+内地升学的申请季流程多指保研，具体可见 [推免流程](recommendation-process.md)
 
 </div>
 
 ## 内地升学
-前期申请套磁的具体流程见D:\Learning\学生工作\MSE_Tutorial_GitHub\docs\大学生活\topics\courses\contacting-supervisors.md
+前期申请套磁的具体流程见[套磁](contacting-supervisors.md)
 
-这里我们主要讲解夏令营，预推免等环节。随着保研流程的提前，以后的这些流程会有所不同，这里复现一下往年的流程大家简单了解即可：
+这里我们主要讲解夏令营，预推免等环节。
+
+随着保研流程的提前，以后的这些流程会有所不同，这里复现一下往年的流程大家简单了解即可：
+
 ### 夏令营
 时间：常常在6-8月，提前一段时间报名，需要投递文书进行背景筛选。
 
