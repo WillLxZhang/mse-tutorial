@@ -389,19 +389,17 @@ body {
 .md-typeset .feedback-card {
   margin-top: 1.5rem;
 }
-.md-typeset .feedback-label {
-  display: block;
-  margin: 1.25rem 0 0.5rem;
-  font-weight: 550;
+.md-typeset .feedback-input {
+  position: relative;
 }
 .md-typeset #feedback-message {
   box-sizing: border-box;
   display: block;
   width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #c7cbd0;
-  border-radius: 0.3rem;
-  background: #fff;
+  padding: 0.85rem 0.9rem 2.25rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.45rem;
+  background: #fafafa;
   color: #202124;
   font: inherit;
   font-size: max(16px, 0.8rem);
@@ -413,22 +411,32 @@ body {
   outline-offset: 2px;
 }
 .md-typeset .feedback-count {
-  margin: 0.4rem 0 1rem;
-  color: #5f6368;
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.6rem;
+  margin: 0;
+  color: #9aa0a6;
   font-size: 0.7rem;
+  line-height: 1.25;
   text-align: right;
+  pointer-events: none;
+}
+.md-typeset .feedback-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.9rem;
 }
 .md-typeset .feedback-submit {
   padding: 0.55rem 1.4rem;
   border: 0;
   border-radius: 0.3rem;
-  background: #5f6368;
+  background: #45484c;
   color: #fff;
   font: inherit;
   cursor: pointer;
 }
 .md-typeset .feedback-submit:hover {
-  background: #45484c;
+  background: #34383c;
 }
 .md-typeset .feedback-submit:focus-visible {
   outline: 2px solid #45484c;

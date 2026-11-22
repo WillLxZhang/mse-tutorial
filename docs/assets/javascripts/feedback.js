@@ -18,9 +18,7 @@
 
   function updateCount() {
     const remaining = limit - message.value.length;
-    count.textContent = remaining >= 0
-      ? `还可输入 ${remaining} 字`
-      : `已超出 ${-remaining} 字`;
+    count.textContent = `${message.value.length}/${limit}字`;
     message.setCustomValidity(remaining < 0 ? `留言请控制在 ${limit} 字以内。` : "");
   }
 

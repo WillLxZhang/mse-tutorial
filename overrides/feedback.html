@@ -3,17 +3,19 @@
 {% block content %}
   {{ super() }}
   <div class="article-box feedback-card">
-    <p id="feedback-privacy">内容仅供网站维护者查看，不公开展示。</p>
     <form id="feedback-form"
           data-access-key="{{ config.extra.feedback_access_key | default('') | e }}"
           data-endpoint="{{ config.extra.feedback_endpoint | default('https://api.web3forms.com/submit') | e }}">
-      <label for="feedback-message" class="feedback-label">你的留言 <span aria-hidden="true">*</span></label>
-      <textarea id="feedback-message" name="message" rows="9" maxlength="1000" required
-                aria-describedby="feedback-privacy feedback-count"
-                placeholder="请在这里写下你的感想或建议。"></textarea>
-      <p id="feedback-count" class="feedback-count" aria-live="polite">还可输入 1000 字</p>
+      <div class="feedback-input">
+        <textarea id="feedback-message" name="message" rows="9" maxlength="1000" required
+                  aria-label="留言" aria-describedby="feedback-count"
+                  placeholder="在这里留言"></textarea>
+        <p id="feedback-count" class="feedback-count" aria-live="polite">0/1000字</p>
+      </div>
       <input type="checkbox" name="botcheck" class="feedback-honeypot" tabindex="-1" aria-hidden="true">
-      <button type="submit" class="feedback-submit" disabled>提交</button>
+      <div class="feedback-actions">
+        <button type="submit" class="feedback-submit" disabled>提交</button>
+      </div>
       <p id="feedback-status" class="feedback-status" role="status" aria-live="polite" tabindex="-1"></p>
       <noscript><p>请启用 JavaScript 后提交留言。</p></noscript>
     </form>
