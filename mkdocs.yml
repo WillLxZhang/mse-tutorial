@@ -72,3 +72,5 @@ plugins:
 extra:
   # Web3Forms 公开表单标识，绑定本站维护邮箱。
   feedback_access_key: "a2283eab-95b9-4f06-b688-dd3228bf84ff"
+  goatcounter_private_site: "wz-hust-mse-tutorial-count"
+  goatcounter_public_site: "wz-hust-mse-tutorial-public"

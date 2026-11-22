@@ -317,6 +317,13 @@ body {
 }
 
 /* 首页底部的更新记录入口 */
+.md-typeset .mse-views {
+  margin: 1.5rem 0 0;
+  color: #6f767d;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
 .md-typeset .update-link {
   margin-top: 3rem;
   font-size: 0.78rem;

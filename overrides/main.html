@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+  {% if page and config.extra.goatcounter_public_site %}
+    {% if page.is_homepage %}
+      <p class="mse-views">本站累计浏览：<span data-mse-count="total" aria-live="polite">正在加载</span></p>
+    {% elif page.file.src_uri.startswith("大学生活/topics/") %}
+      <p class="mse-views">本词条累计浏览：<span data-mse-count="page" aria-live="polite">正在加载</span></p>
+    {% endif %}
+  {% endif %}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  {% if page and config.extra.goatcounter_private_site %}
+    {% set metrics = {
+      "siteUrl": config.site_url,
+      "path": page.url,
+      "title": page.title,
+      "privateSite": config.extra.goatcounter_private_site,
+      "publicSite": config.extra.goatcounter_public_site | default("")
+    } %}
+    <script type="application/json" id="mse-analytics-config">{{ metrics | tojson }}</script>
+    <script type="module" src="{{ 'assets/javascripts/metrics.js' | url }}"></script>
+  {% endif %}
+{% endblock %}
