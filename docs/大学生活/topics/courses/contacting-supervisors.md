@@ -19,5 +19,6 @@ hide:
 
 对方未回复时，可以间隔一段时间礼貌跟进一次，如仍无回复可以再继续联系其他合适的导师。
 
-导师回复后一般是面试、考核等环节，可以参见D:\Learning\学生工作\MSE_Tutorial_GitHub\docs\大学生活\topics\courses\recommendation-process.md
+导师回复后一般是面试、考核等环节，可以参见[推免流程](recommendation-process.md)
+
 </div>

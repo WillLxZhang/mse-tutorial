@@ -84,7 +84,7 @@
 
 支持 Markdown、Word 或纯文本。图片请使用清晰的版本。
 
-投稿人可以直接套用 [经验文章模板](page-templates/article.md)
+投稿人可以直接套用 [经验文章模板](docs/page-templates/article.md)
 
 
 </div>
