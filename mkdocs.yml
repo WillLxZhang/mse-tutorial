@@ -22,7 +22,7 @@ theme:
     accent: custom
 
 extra_css:
-  - assets/stylesheets/custom.css
+  - assets/stylesheets/custom.css?v=20261122-3
 
 extra_javascript:
   - assets/javascripts/mathjax.js

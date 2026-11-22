@@ -25,6 +25,11 @@
     "Liberation Mono", Menlo, monospace;
 }
 
+/* 固定纵向滚动条占位，避免切换长短页面时整体横移 */
+html {
+  overflow-y: scroll;
+}
+
 /* 全局字重上调约 10%，标题继续保留层级差异 */
 body {
   font-weight: 440;
@@ -377,6 +382,7 @@ body {
     margin-right: auto;
   }
   .md-header__source {
+    flex-shrink: 0;
     min-width: 7rem;
   }
   .md-header__inner > .md-header__title {
