@@ -15,4 +15,4 @@ hide:
 
 </div>
 
-> by [LLL](../../../baoyan/lll-sjtu-phd-industrial-engineering.md)
+
