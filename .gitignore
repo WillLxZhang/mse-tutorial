@@ -5,6 +5,7 @@ site_verify/
 __pycache__/
 *.pyc
 mkdocs-server*.log
+BINS/
 
 # 本地审核状态。原始投稿和凭据不得提交到公开仓库。
 .moderation/
