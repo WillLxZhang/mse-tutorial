@@ -369,11 +369,19 @@ body {
 
 /* 桌面端采用较窄的中央阅读列，右侧保留页面目录 */
 @media screen and (min-width: 76.25em) {
-  .md-header__inner {
-    /* 给新增的“关于/投稿”以及搜索和 GitHub 区域留出横向空间 */
-    max-width: 1280px;
-    margin-left: auto;
+  .md-header__inner.md-grid {
+    /* 为完整导航、搜索和 GitHub 区域保留横向空间 */
+    max-width: 1060px;
+    /* 保持左侧起点，将新增空间留在右侧 */
+    margin-left: calc((100% - 980px) / 2);
     margin-right: auto;
+  }
+  .md-header__source {
+    min-width: 7rem;
+  }
+  .md-header__inner > .md-header__title {
+    flex: 0 0 0;
+    overflow: hidden;
   }
   .md-grid {
     max-width: 980px;
