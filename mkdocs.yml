@@ -46,6 +46,7 @@ nav:
   - 留学: 留学/index.md
   - 关于: about.md
   - 投稿: contribute.md
+  - 留言: feedback.md
 
 markdown_extensions:
   - admonition
@@ -67,3 +68,7 @@ plugins:
       lang:
         - zh
         - en
+
+extra:
+  # Web3Forms 公开表单标识，绑定本站维护邮箱。
+  feedback_access_key: "a2283eab-95b9-4f06-b688-dd3228bf84ff"

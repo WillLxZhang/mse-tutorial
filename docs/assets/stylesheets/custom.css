@@ -385,6 +385,76 @@ body {
   }
 }
 
+/* 留言表单沿用正文卡片和站点配色 */
+.md-typeset .feedback-card {
+  margin-top: 1.5rem;
+}
+.md-typeset .feedback-label {
+  display: block;
+  margin: 1.25rem 0 0.5rem;
+  font-weight: 550;
+}
+.md-typeset #feedback-message {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #c7cbd0;
+  border-radius: 0.3rem;
+  background: #fff;
+  color: #202124;
+  font: inherit;
+  font-size: max(16px, 0.8rem);
+  line-height: 1.6;
+  resize: vertical;
+}
+.md-typeset #feedback-message:focus-visible {
+  outline: 2px solid #686d72;
+  outline-offset: 2px;
+}
+.md-typeset .feedback-count {
+  margin: 0.4rem 0 1rem;
+  color: #5f6368;
+  font-size: 0.7rem;
+  text-align: right;
+}
+.md-typeset .feedback-submit {
+  padding: 0.55rem 1.4rem;
+  border: 0;
+  border-radius: 0.3rem;
+  background: #5f6368;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+.md-typeset .feedback-submit:hover {
+  background: #45484c;
+}
+.md-typeset .feedback-submit:focus-visible {
+  outline: 2px solid #45484c;
+  outline-offset: 3px;
+}
+.md-typeset .feedback-submit:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.md-typeset .feedback-status {
+  margin: 0.75rem 0 0;
+  font-size: 0.75rem;
+}
+.md-typeset .feedback-status:empty {
+  display: none;
+}
+.md-typeset .feedback-status[data-state="error"] {
+  color: #a12727;
+}
+.md-typeset .feedback-status[data-state="success"] {
+  color: #276341;
+}
+.md-typeset .feedback-honeypot {
+  display: none;
+}
+
 /* 右侧目录与页面底色统一，取消独立白色标题块和蓝色激活态 */
 @media screen and (min-width: 76.25em) {
   .md-sidebar--secondary,
