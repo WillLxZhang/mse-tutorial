@@ -9,4 +9,4 @@ hide:
 
 - [科研实习](topics/research/research-internship.md)
 - [科研技能](topics/research/research-skills.md)
-- [Vibe Coding](topics/research/vibe-coding.md)
+- [AI 与 Vibe Coding](topics/research/vibe-coding.md)
