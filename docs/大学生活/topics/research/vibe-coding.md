@@ -7,13 +7,11 @@ hide:
 
 > [科研](../../research.md)
 
-<div class="article-box" markdown="1">
-
-**如何成为 AI 专家？**
-
-</div>
+## **如何成为 AI 专家？**
 
 ## 写在前面
+
+<div class="article-box" markdown="1">
 
 大家生活的每个角落现在必然被 AI 包围。
 
@@ -25,9 +23,11 @@ hide:
 
 我们真切希望通过这个帖子，能帮助大家成为会使用 AI 的人。请大家耐心阅读，想必会有所收获：
 
+</div>
+
 ## 一、什么是 AI 与 Vibe Coding？
 
-
+<div class="article-box" markdown="1">
 
 我们可以把 AI 先简单地理解为模型。
 
@@ -47,7 +47,9 @@ $$
 
 但是网页端的 AI 似乎只能和你对话，并且生成一些图片和文件，如果它能够接管我的电脑呢？
 
-【这里分一个块】
+</div>
+
+<div class="article-box" markdown="1">
 
 **向你介绍 Agent：**
 
@@ -73,7 +75,9 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 那我们能够利用这个能力做什么呢？
 
-【这里分一个块】
+</div>
+
+<div class="article-box" markdown="1">
 
 **向你介绍 Vibe Coding：**
 
@@ -91,20 +95,31 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 介绍环节结束，我们来学习如何使用 AI。
 
+</div>
+
 ---
 
 ## 二、几个 AI 应用实例
+
+<div class="article-box" markdown="1">
 
 首先，这里有四个机械学院常见且常用实际简单例子供大家参考：课程报告写作、基础的嵌入式控制STM32，常见的视觉模型YOLO，机器人仿真中通用性较强的Mujoco。
 
 看完这些后，大家或许会对怎么使用 AI 有一个新的认知。
 
+</div>
 
 ### 实例一：课程报告写作
 
+<div class="article-box" markdown="1">
+
 课程报告、小组作业这样形式的任务贯穿了每一个大学生的生涯。这里以要求写一篇 **以人形机器人为主题的综述报告**为例（老师一般会要求：梳理主要研究方向、比较代表性工作，并列出参考文献），向大家介绍如何使用 AI 辅助课内内容。
 
+</div>
+
 #### 1. 在 Vibe Coding 时代之前
+
+<div class="article-box" markdown="1">
 
 传统写作大概需要经历这样的流程：
 
@@ -114,9 +129,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 4. **撰写报告。** 按研究问题或技术路线组织材料，写作文章，绘图、制作表格，再写出自己的分析。
 5. **引用和排版。** 把正文引用与参考文献逐项对应，费劲巴拉按格式列举参考文献，然后排版，发现自己还得学 latex 语法。
 
-
+</div>
 
 #### 2. 在 Vibe Coding 时代
+
+<div class="article-box" markdown="1">
 
 我们可以把课程要求、已有材料和自己的初步想法等内容交给 Agent，让它帮助完成检索、整理、内容起草、排版等过程。但注意，具体内容的呈现一定要由我们自己来把关，目前 AI 的能力还不支持 100% 写出来我们想要的内容。
 
@@ -142,18 +159,21 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 **阅读课程要求 → 整理文献 → 比较研究路线 → 起草正文 → 检查引用 → 调整格式。** 的全过程。这样，写综述的精力可以更多地放在理解问题、组织观点和形成自己的判断上。
 
-
-
-
-
+</div>
 
 ### 实例二：STM32——从点亮 LED 到控制电机
+
+<div class="article-box" markdown="1">
 
 对于机械学院的同学来说，STM32 应该不是什么陌生的东西。从单片机课程设计到各种机器人、智能车项目，我们或多或少都和它打过交道。
 
 假设我们今天需要使用一块 **STM32F103 开发板，实现 PWM 控制舵机，并通过串口接收控制指令**。
 
+</div>
+
 #### 1. 在 Vibe Coding 时代之前
+
+<div class="article-box" markdown="1">
 
 传统开发大概需要经历这样的流程：
 
@@ -172,7 +192,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 折腾一下午，舵机终于转了。至于为什么能转，可能还没完全搞明白。
 
+</div>
+
 #### 2. 在 Vibe Coding 时代
+
+<div class="article-box" markdown="1">
 
 我们可以直接打开 Codex 或 Claude Code，告诉 Agent 自己使用的开发板、硬件连接方式和具体需求。
 
@@ -194,8 +218,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 但它确实可以让我们少花很多时间寻找外设配置教程，把精力更多地放在实际的控制问题上。
 
+</div>
 
 ### 实例三：YOLOv8——从 GitHub 项目到自己的视觉检测程序
+
+<div class="article-box" markdown="1">
 
 在机器人工程和机械自动化相关项目中，我们经常需要识别物体、检测零件位置，或者使用摄像头获取环境信息。
 
@@ -203,7 +230,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 这里是一个项目仓库：[https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)。我们该如何实现呢？
 
-### 1. 在 Vibe Coding 时代之前
+</div>
+
+#### 1. 在 Vibe Coding 时代之前
+
+<div class="article-box" markdown="1">
 
 1. **寻找项目和教程。** 打开 CSDN 搜索「YOLOv8 环境搭建教程」，再打开 GitHub 找到 Ultralytics 官方仓库，阅读 README，研究怎么安装和运行。
 
@@ -219,8 +250,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 7. **搜索报错并重新配置。** 在 CSDN、Stack Overflow 和 GitHub Issues 之间反复横跳，直到程序终于能够正常运行。
 
+</div>
 
-### 2. 在 Vibe Coding 时代
+#### 2. 在 Vibe Coding 时代
+
+<div class="article-box" markdown="1">
 
 现在我们只需要把官方 GitHub 仓库链接和自己的需求发给 Agent：
 
@@ -248,7 +282,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 当然，Agent 能把程序跑起来，但还会存在一些潜在的问题，比如模型的识别精度、训练数据质量、误检漏检、推理延迟等指标不一定满足要求，这些内容仍然需要我们自己把关。
 
-## 实例四：MuJoCo——从零搭建一个机器人仿真环境
+</div>
+
+### 实例四：MuJoCo——从零搭建一个机器人仿真环境
+
+<div class="article-box" markdown="1">
 
 如果我们希望进行机器人运动控制、机械臂操作，或者强化学习相关的实验，就可能接触到 MuJoCo 这样的物理仿真器。
 
@@ -256,7 +294,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 这里有一个仓库：[https://github.com/google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
 
-### 1. 在 Vibe Coding 时代之前
+</div>
+
+#### 1. 在 Vibe Coding 时代之前
+
+<div class="article-box" markdown="1">
 
 1. **了解 MuJoCo。** 打开官方文档、GitHub 和各种技术博客，研究 MuJoCo 的安装方式、Python 接口，以及仿真器的基本工作原理。
 
@@ -275,7 +317,11 @@ OK，我们现在可以得出一个很棒的结论：所有能够被信息化的
 
 实际上，在真正开始研究机器人控制算法之前，我们就可能花费大量时间在模型配置和仿真环境搭建上。
 
-### 2. 在 Vibe Coding 时代
+</div>
+
+#### 2. 在 Vibe Coding 时代
+
+<div class="article-box" markdown="1">
 
 现在我们可以把 MuJoCo 的官方仓库直接交给 Agent：
 
@@ -307,16 +353,17 @@ Agent 可以从零生成 MJCF 模型、Python 控制代码和绘图程序，也�
 
 看不懂，没耐心看也不要紧，建议在开发过程中，哪里遇到问题了再去查阅哪里。
 
-
-
-
+</div>
 
 ---
 
 ## 三、如何 Vibe Coding？
 
+<div class="article-box" markdown="1">
+
 终于进入正题。我们其实无法指导大家如何 Vibe Coding，但一些经验性的东西可以在这里传递：
 
+</div>
 
 ### 1. 至少看得懂一点代码
 
@@ -353,6 +400,7 @@ Vibe Coding 不需要你是计算机大神，但最好也别对编程一窍不�
 ### 3. 对专业问题要有基本理解
 
 <div class="article-box" markdown="1">
+
 AI 可以代替大量代码编写劳动，但不能替代开发者对问题本身的理解与判断。
 
 如果只是写个网页、爬个数据，问题倒不大；如果要用 AI 做算法或者科研，最好先理解基本原理。
@@ -405,11 +453,15 @@ AI 说「任务完成」不代表程序就真的没问题了，自己至少运�
 
 </div>
 
-### **当然，自己多去尝试，提升工程能力是最重要的。说了这么多，最重要的一定是去用，建议看完一点教程大家先去往Deepseek里充个30块钱，然后尝试自己的第一次Vibe，搭个小网站，复现一个小项目，一切问题和经验都是在实践中发现总结出来的。**
+<div class="article-box" markdown="1">
+
+**当然，自己多去尝试，提升工程能力是最重要的。说了这么多，最重要的一定是去用，建议看完一点教程大家先去往Deepseek里充个30块钱，然后尝试自己的第一次Vibe，搭个小网站，复现一个小项目，一切问题和经验都是在实践中发现总结出来的。**
+
+</div>
 
 ---
 
-## 五、总结
+## 四、总结
 
 <div class="article-box" markdown="1">
 
@@ -421,12 +473,13 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了。但我们
 
 </div>
 
-
-
-
 ## 附录 A：可能会用到的一些高阶知识
 
+<div class="article-box" markdown="1">
+
 我们整理了一些常见术语，大家感兴趣的话读一读，也可以带着问题继续问 AI。
+
+</div>
 
 ### 1. 对话与内容输出等相关内容
 
@@ -444,14 +497,17 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了。但我们
 **学会甄别判断我们想要怎么样的 AI 内容，并对其生成的内容加以约束，是使用 AI 中最重要的能力之一，需要适当的方法和一定的积累。**
 
 -  **AGENTS.md**：每个 agent 通常会在项目根目录放一份通用说明，用来记录项目背景、常用命令和要求等内容。每个对话都会去读取相应说明，这样免得反复在 prompt 对话里去强调了。如为了避免防御性写作，我们可以在这个文件里放：
-禁止防御性写作 ：
-	- 围绕用户实际提出的问题作答。不要自行引入更强的命题，再花篇幅否认或限制它。
-	- 默认读者能够正常理解语境。删除为预防假想误解而添加的解释、免责和纠偏。
-	- 限定说明必须有具体作用：改变结论、影响操作，或指出尚缺的关键证据。直接写明相关条件和影响。
-	- 表达不确定性时，明确指出未知项。例如“当前上下文没有源文件路径”，说到这里即可。
-	- 完成回答后及时结束，避免在末尾惯性追加提醒、边界声明或自我保护式总结。
-	- 不要说没做什么，只说你做了什么。比如“我检查了A，结论是XX。”到这就停止就可以了。
-	- 发送前逐句检查：凡是只用于预防假想质疑、没有提供必要信息的句子，直接删除。检查过程不写进回答。
+
+    ```markdown
+    禁止防御性写作 ：
+    - 围绕用户实际提出的问题作答。不要自行引入更强的命题，再花篇幅否认或限制它。
+    - 默认读者能够正常理解语境。删除为预防假想误解而添加的解释、免责和纠偏。
+    - 限定说明必须有具体作用：改变结论、影响操作，或指出尚缺的关键证据。直接写明相关条件和影响。
+    - 表达不确定性时，明确指出未知项。例如“当前上下文没有源文件路径”，说到这里即可。
+    - 完成回答后及时结束，避免在末尾惯性追加提醒、边界声明或自我保护式总结。
+    - 不要说没做什么，只说你做了什么。比如“我检查了A，结论是XX。”到这就停止就可以了。
+    - 发送前逐句检查：凡是只用于预防假想质疑、没有提供必要信息的句子，直接删除。检查过程不写进回答。
+    ```
 
 </div>
 
@@ -503,10 +559,11 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了。但我们
 
 </div>
 
-
 ## 附录 B ：作者夹杂的私货——一些学习路线
 
 ### 1. STM32：嵌入式开发与硬件配置
+
+<div class="article-box" markdown="1">
 
 - [STM32 官方入门教程（ST Wiki）](https://wiki.st.com/stm32mcu/wiki/STM32StepByStep:STM32_step_by_step_overview)
 
@@ -520,8 +577,11 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了。但我们
 
     包含 STM32F1 系列的 HAL 驱动、CMSIS 和官方示例。可以对照 Agent 生成的程序，看看 HAL 库函数究竟来自哪里。
 
+</div>
 
 ### 2. YOLOv8：Python 环境与计算机视觉
+
+<div class="article-box" markdown="1">
 
 - [Ultralytics YOLOv8 官方文档（中文）](https://docs.ultralytics.com/zh/models/yolov8/)
 
@@ -535,7 +595,11 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了。但我们
 
     了解 PyTorch 与 CUDA、GPU、操作系统之间的关系。尤其推荐给曾经被 CUDA 版本和环境冲突折磨过的同学。
 
+</div>
+
 ### 3. MuJoCo：物理仿真与机器人建模
+
+<div class="article-box" markdown="1">
 
 - [MuJoCo 官方 GitHub 仓库](https://github.com/google-deepmind/mujoco)
 
@@ -553,24 +617,29 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了。但我们
 
     这是 MuJoCo 模型格式的参考手册。当 Agent 生成或修改 XML 文件时，可以用它检查各项参数的含义。
 
-
+</div>
 
 ### 4. 硬核 AI 知识：
+
+<div class="article-box" markdown="1">
+
 不建议大家用做题区思维学AI，即没有必要看完教程再实践，边做边学，做到哪学到哪，学到赚到。
 
-具身智能入门指南：
-	https://github.com/tianxingchen/Embodied-AI-Guide
-Stanford CS231N（计算机视觉）：
-	https://cs231n.stanford.edu/
-强化学习的数学原理：
-	bilibili.com/video/BV1sd4y167NS/
-LocoMotion：
-	https://github.com/LocoWiki/LocoWiki
-AI Agent：
-	https://github.com/datawhalechina/Agent-Learning-Hub
-	https://github.com/shareAI-lab/learn-claude-code
-深度学习与机器学习：
-	https://www.bilibili.com/video/BV16jyuBBEom
-	https://www.bilibili.com/video/BV1if4y147hS/
+- 具身智能入门指南：
+    - <https://github.com/tianxingchen/Embodied-AI-Guide>
+- Stanford CS231N（计算机视觉）：
+    - <https://cs231n.stanford.edu/>
+- 强化学习的数学原理：
+    - [bilibili.com/video/BV1sd4y167NS/](https://www.bilibili.com/video/BV1sd4y167NS/)
+- LocoMotion：
+    - <https://github.com/LocoWiki/LocoWiki>
+- AI Agent：
+    - <https://github.com/datawhalechina/Agent-Learning-Hub>
+    - <https://github.com/shareAI-lab/learn-claude-code>
+- 深度学习与机器学习：
+    - <https://www.bilibili.com/video/BV16jyuBBEom>
+    - <https://www.bilibili.com/video/BV1if4y147hS/>
+
+</div>
 
 > by Felix and Will Z
