@@ -27,25 +27,21 @@ hide:
 
 <div class="article-box" markdown="1">
 
-上一篇里，我们让 AI 通过代码操作电脑。那如果给它一台机器人，让它帮我把桌上的杯子拿过来呢？
+上一篇里，我们可以通过 Vibe Coding 让 AI 通过代码操作电脑。那它的这双手是否能伸到现实世界中呢？试想一台机器人，我让它干什么它就能干什么，比如让它帮我把桌上的杯子拿过来？
 
-大家可以先想想自己拿杯子的过程：看见杯子，伸手靠近，握住，再拿起来。杯子有点滑，你会握紧一些；杯子被别人挪走了，你会跟着调整手的位置。
+可以先回想自己拿杯子的过程：看见杯子，伸手靠近，握住，再拿起来。杯子有点滑，你会握紧一些；杯子被别人挪走了，你会跟着调整手的位置。
 
 这个过程中，你的眼睛在获取信息，大脑在决定怎么做，身体在执行动作。动作又改变了你看到、摸到的东西，接着影响下一步怎么做。
 
-**我们可以先把具身智能理解为：智能体借助身体与环境交互，在感知和行动的循环中完成任务。**
+**由此推演，我们可以先把具身智能理解为：智能体借助身体与环境交互，在感知和行动的循环中完成任务。**
 
-机械臂、轮式机器人、人形机器人，都可以承载这套感知与行动的过程。我们也可以在仿真环境中，用虚拟机器人研究这些能力。
-
-所以，“把杯子拿过来”这句话背后，有一整套事情要做：机器人要找到杯子，决定怎么接近它，让夹爪到达合适的位置，并根据执行结果继续调整。
+机械臂、轮式机器人、人形机器人...太多的载体都可以承载这套过程。我们也可以在仿真环境中研究这些能力。
 
 </div>
 
 <div class="article-box" markdown="1">
 
-**还记得上一篇里“把模型理解为函数”的说法吗？**
-
-放到机器人上，我们可以先用下面这个式子理解它每一步在做什么：
+**上一篇里“把模型理解为函数”的说法在这里同样适用**，在机器人上，我们先用下面这个式子理解它每一步在做什么：
 
 $$
 a_t=\pi_\theta(o_t,g)
@@ -67,15 +63,67 @@ $$
 
 </div>
 
-## 二、具身智能的技术栈图
+## 二、具身智能的技术栈
 
 <div class="article-box" markdown="1">
 
-下面按“机器人做事时需要解决什么问题”整理了一张图。先沿着上面的闭环看一遍，再看各个方向在研究什么。
+先看下面这张技术栈图，认识具身智能的几个主要研究方向：
 
-[![具身智能技术栈图：感知、认知与决策、动作与控制通过环境反馈形成闭环；学习、交互和硬件参与其中，数据、仿真与部署提供支撑。](../../../assets/images/embodied-ai-stack.svg)](../../../assets/images/embodied-ai-stack.svg)
-
-*图中箭头表示机器人执行任务时的信息流；下方按研究问题展开。点击图片可放大。*
+```text
+Embodied Intelligence
+├── Perception（感知）
+│   ├── Visual Perception（视觉感知）
+│   ├── Tactile Perception（触觉感知）
+│   ├── Auditory Perception（听觉感知）
+│   ├── Proprioception（本体感知）
+│   ├── Multimodal Perception（多模态感知）
+│   │   ├── Visual-Tactile Perception（视觉-触觉融合）
+│   │   │   └── Vision-Based Tactile Sensing（VBTS）
+│   │   ├── Audio-Visual Perception（音频-视觉融合）
+│   │   ├── Visual-Proprioceptive Perception（视觉-本体融合）
+│   │   └── Cross-Modal Learning（跨模态学习）
+│   └── Sensor Fusion & Representation Learning（传感器融合与表征学习）
+│
+├── Cognition（认知）
+│   ├── World Modeling（世界建模）
+│   ├── Semantic Understanding（语义理解）
+│   ├── Spatial Reasoning（空间推理）
+│   ├── Predictive Modeling（预测建模）
+│   └── Task Understanding & Planning（任务理解与规划）
+│
+├── Control（控制）
+│   ├── Motion Planning（运动规划）
+│   ├── Manipulation Control（操作控制）
+│   ├── Locomotion Control（移动控制）
+│   ├── Force Control（力控制）
+│   ├── Grasping & Dexterous Manipulation（抓取与灵巧操作）
+│   └── Adaptive Control & Learning（自适应控制与学习）
+│
+├── Learning（学习）
+│   ├── Reinforcement Learning（强化学习）
+│   ├── Imitation Learning（模仿学习）
+│   ├── Self-Supervised Learning（自监督学习）
+│   ├── Few-shot / Meta Learning（小样本与元学习）
+│   └── Multi-Agent Learning（多智能体学习）
+│
+├── Interaction（交互）
+│   ├── Human-Robot Interaction（人机交互）
+│   ├── Physical Interaction（物理交互）
+│   ├── Social Interaction（社会交互）
+│   └── Shared Autonomy（共享自主）
+│
+└── Embodiment & Hardware（具身与硬件）
+    ├── Robot Morphology（机器人形态设计）
+    ├── Actuators（执行器）
+    ├── Sensors（传感器）
+    │   ├── Vision Sensors（视觉传感器）
+    │   ├── Tactile Sensors（触觉传感器）
+    │   │   └── Vision-Based Tactile Sensors（VBTS）
+    │   ├── Force/Torque Sensors（力/力矩传感器）
+    │   └── Inertial Measurement Units（IMU）
+    ├── Energy Systems（能源系统）
+    └── Soft Robotics（软体机器人）
+```
 
 </div>
 
@@ -133,7 +181,7 @@ $$
 
 <div class="article-box" markdown="1">
 
-做项目时，还会遇到图中最下面的三个环节：
+做项目时，还会遇到数据、仿真与部署这三个环节：
 
 | 环节 | 具体在做什么 | 可以认识的工具或项目 |
 | --- | --- | --- |
