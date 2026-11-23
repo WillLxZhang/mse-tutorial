@@ -18,8 +18,10 @@ hide:
 - [具身智能技术指南 Embodied-AI-Guide](https://github.com/TianxingChen/Embodied-AI-Guide)
 - [面向小白的具身智能入门指南](https://github.com/jiangranlv/embodied-ai-start)
 - [EsCommune 文档](https://escommune.readthedocs.io/en/latest/)
+- ...
 
-(PS：入门前请先把 linux 基本概念、基本用法，还有 git 等代码管理技能搞清楚，加上 Vibe Coding，相信你能做成你想做的任何事)
+(PS：入门前请先把 linux 基本概念、基本用法，机器人学基本概念，还有 git 等代码管理技能搞清楚，加上 Vibe Coding，相信你能做成你想做的任何事)
+
 
 </div>
 
@@ -41,13 +43,15 @@ hide:
 
 <div class="article-box" markdown="1">
 
-**上一篇里“把模型理解为函数”的说法在这里同样适用**，在机器人上，我们先用下面这个式子理解它每一步在做什么：
+**上一篇里“把模型理解为函数”的说法在这里同样适用**
+
+设想一个末端装有摄像头的夹爪机械臂，我们先看看下面这个式子：
 
 $$
 a_t=\pi_\theta(o_t,g)
 $$
 
-这里的 $o_t$ 是机器人在时刻 $t$ 获得的观测，比如相机画面；$g$ 是目标，比如“拿起杯子”；$a_t$ 是这一步要执行的动作。$\pi_\theta$ 叫作**策略（Policy）**，可以先理解为“根据当前情况决定下一步怎么做”的规则或模型。
+$o_t$ 是机器人在时刻 $t$ 获得的观测，即相机画面；$g$ 是人告诉它的目标，比如“拿起杯子”；$a_t$ 是这一步要执行的动作。$\pi_\theta$ 叫作**策略（Policy）**，可以理解为“根据当前情况决定下一步怎么做”的规则或模型。
 
 机器人执行动作之后，会获得新的观测，再决定下一个动作：
 
@@ -57,9 +61,8 @@ o_t\xrightarrow[\text{目标 }g]{\text{策略}}a_t
 \xrightarrow{\text{再次决策}}a_{t+1}
 $$
 
-**感知、行动、再感知，这个不断循环的过程就是闭环。** 杯子移动了、夹爪没夹稳，机器人都要从新的观测里获得反馈。
+**感知、行动、再感知，是一个不断循环的过程。**
 
-那这套系统里，具体有哪些东西值得研究呢？
 
 </div>
 
@@ -67,83 +70,86 @@ $$
 
 <div class="article-box" markdown="1">
 
-先看下面这张技术栈图，认识具身智能的几个主要研究方向：
+这个领域可以大致细分如下：
 
 ```text
-Embodied Intelligence
-├── Perception（感知）
-│   ├── Visual Perception（视觉感知）
-│   ├── Tactile Perception（触觉感知）
-│   ├── Auditory Perception（听觉感知）
-│   ├── Proprioception（本体感知）
-│   ├── Multimodal Perception（多模态感知）
-│   │   ├── Visual-Tactile Perception（视觉-触觉融合）
-│   │   │   └── Vision-Based Tactile Sensing（VBTS）
-│   │   ├── Audio-Visual Perception（音频-视觉融合）
-│   │   ├── Visual-Proprioceptive Perception（视觉-本体融合）
-│   │   └── Cross-Modal Learning（跨模态学习）
-│   └── Sensor Fusion & Representation Learning（传感器融合与表征学习）
+Embodied Intelligence（具身智能）
+├── Perception & Spatial Representation（感知与空间表征）
+│   ├── Visual & 3D Perception（视觉与三维感知）
+│   ├── Tactile & Proprioceptive Sensing（触觉与本体感知）
+│   ├── Multimodal Fusion（多模态融合）
+│   └── Localization, Mapping & Scene Understanding（定位、建图与场景理解）
 │
-├── Cognition（认知）
-│   ├── World Modeling（世界建模）
-│   ├── Semantic Understanding（语义理解）
-│   ├── Spatial Reasoning（空间推理）
-│   ├── Predictive Modeling（预测建模）
-│   └── Task Understanding & Planning（任务理解与规划）
+├── Embodied Reasoning & Planning（具身推理与任务规划）
+│   ├── VLMs & Affordance Reasoning（视觉语言模型与可供性推理）
+│   ├── Long-Horizon Planning & Memory（长程任务规划与记忆）
+│   └── Human-Robot & Multi-Robot Collaboration（人机与多机器人协作）
 │
-├── Control（控制）
-│   ├── Motion Planning（运动规划）
-│   ├── Manipulation Control（操作控制）
-│   ├── Locomotion Control（移动控制）
-│   ├── Force Control（力控制）
-│   ├── Grasping & Dexterous Manipulation（抓取与灵巧操作）
-│   └── Adaptive Control & Learning（自适应控制与学习）
+├── Action Models & Policies（动作模型与策略）
+│   ├── Vision-Language-Action Models, VLA（视觉—语言—动作模型）
+│   ├── Diffusion & Flow-Matching Policies（扩散与流匹配策略）
+│   ├── Action Chunking & Hierarchical Policies（动作分块与分层策略）
+│   └── Cross-Embodiment Generalization（跨本体泛化）
 │
-├── Learning（学习）
-│   ├── Reinforcement Learning（强化学习）
-│   ├── Imitation Learning（模仿学习）
-│   ├── Self-Supervised Learning（自监督学习）
-│   ├── Few-shot / Meta Learning（小样本与元学习）
-│   └── Multi-Agent Learning（多智能体学习）
+├── Motion & Contact Control（运动与接触控制）
+│   ├── Motion Planning & Inverse Kinematics（运动规划与逆运动学）
+│   ├── Locomotion & Whole-Body Control（移动与全身控制）
+│   ├── Mobile Manipulation（移动操作）
+│   ├── Dexterous & Bimanual Manipulation（灵巧操作与双臂协作）
+│   └── Force & Compliance Control（力控制与柔顺控制）
 │
-├── Interaction（交互）
-│   ├── Human-Robot Interaction（人机交互）
-│   ├── Physical Interaction（物理交互）
-│   ├── Social Interaction（社会交互）
-│   └── Shared Autonomy（共享自主）
+├── Data & Robot Learning（数据与机器人学习）
+│   ├── Teleoperation & Human Demonstrations（遥操作与人类演示）
+│   ├── Imitation Learning & Large-Scale Pretraining（模仿学习与大规模预训练）
+│   ├── Learning from Human Videos（从人类视频中学习）
+│   ├── Self-Supervised Representation Learning（自监督表征学习）
+│   ├── RL Post-Training & Online RL（强化学习后训练与在线强化学习）
+│   └── Data Curation & Task Adaptation（数据筛选与任务适配）
 │
-└── Embodiment & Hardware（具身与硬件）
-    ├── Robot Morphology（机器人形态设计）
-    ├── Actuators（执行器）
-    ├── Sensors（传感器）
-    │   ├── Vision Sensors（视觉传感器）
-    │   ├── Tactile Sensors（触觉传感器）
-    │   │   └── Vision-Based Tactile Sensors（VBTS）
-    │   ├── Force/Torque Sensors（力/力矩传感器）
-    │   └── Inertial Measurement Units（IMU）
-    ├── Energy Systems（能源系统）
-    └── Soft Robotics（软体机器人）
+├── World Models & Simulation（世界模型与仿真）
+│   ├── Action-Conditioned Prediction（以动作为条件预测环境变化）
+│   ├── Model-Based Planning & Synthetic Data（基于模型的规划与合成数据）
+│   └── Physics Simulation & Sim-to-Real（物理仿真与仿真到现实迁移）
+│
+└── Hardware, Deployment & Evaluation（硬件、部署与评测）
+    ├── Robot Bodies, Sensors & Actuators（机器人结构、传感器与执行器）
+    ├── Real-Time Systems & On-Device Inference（实时系统与端侧推理）
+    ├── Human Intervention & Safety（人工接管与安全约束）
+    └── Benchmarks & Real-World Evaluation（基准测试与真实场景评测）
 ```
 
 </div>
 
-### **感知（Perception）：机器人怎么知道周围发生了什么？**
+### 重点方向（Key Directions）
 
 <div class="article-box" markdown="1">
 
-相机帮助它找到杯子，触觉传感器帮助它判断是否接触、是否打滑。关节编码器提供关节位置等本体信息。把这些信息结合起来，就是多模态感知与传感器融合。[视觉触觉传感器（VBTS）](https://people.csail.mit.edu/kimo/gelsight/)则通过拍摄接触材料的形变来获取触觉信息。
+- **动作模型：** VLA 把视觉、语言和动作连接起来；扩散与流匹配则是生成动作的方法。两者可以组合，比如[π₀](https://www.pi.website/blog/pi0)通过流匹配生成连续动作。动作分块指一次预测一小段动作，分层策略则把任务安排和具体运动交给不同层级处理。
+- **具身推理与记忆：** 除了理解眼前的场景，机器人还要安排多步任务，记住已经完成的步骤。[Gemini Robotics ER](https://deepmind.google/models/gemini-robotics/embodied-reasoning/)研究高层推理与任务协调，[MEM](https://www.pi.website/research/memory)为长任务引入了长短期记忆。
+- **数据与后训练：** 演示可以来自遥操作，也可以通过[UMI](https://umi-gripper.github.io/)这样的手持设备采集。模型学会基本动作后，还可以根据执行反馈继续改进。[RLT](https://www.pi.website/research/rlt)就研究了利用在线强化学习改善精密操作的表现。
+- **跨本体泛化：** 研究怎样把不同机器人身上积累的经验用起来，帮助另一种机器人学习任务。“本体”在这里指机器人的身体形态与动作接口。从人类视频中学习，也需要处理人体与机器人之间的差异。
+- **世界模型与合成数据：** 世界模型学习环境怎样变化，动作条件预测还会把“准备做什么动作”作为输入。[V-JEPA 2](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)展示了利用预测模型进行机器人规划的做法；[GR00T-Dreams](https://developer.nvidia.com/blog/enhance-robot-learning-with-synthetic-trajectory-data-generated-by-world-foundation-models/)则探索了用生成模型扩充训练轨迹。
+- **全身控制与系统部署：** 人形机器人伸手拿东西时，还要协调躯干与腿，维持平衡；移动操作把走动与物体操作结合起来。模型落到实物上，还要处理推理延迟与动作衔接，并通过真实场景评测检查成功率和可靠性。[Isaac Lab](https://developer.nvidia.com/isaac/lab)覆盖了多种机器人策略的仿真训练与部署流程。
 
 </div>
 
-### **认知（Cognition）：机器人怎么理解任务、判断接下来会发生什么？**
+### 感知（Perception）
 
 <div class="article-box" markdown="1">
 
-“把桌子收拾好”需要拆成具体步骤；“杯子后面的盒子”需要结合语义与空间关系来理解。世界模型尝试预测动作之后环境会怎样变化，比如推一下杯子，它可能移到哪里。
+相机帮助它找到杯子，触觉传感器帮助它判断是否接触、是否打滑。机械臂上电机关节的编码器会提供关节位置等本体信息。把这些信息结合起来，就是多模态感知与传感器融合。
 
 </div>
 
-### **动作策略与控制（Policy & Control）：机器人下一步怎么动、怎样把动作执行出来？**
+### 认知（Cognition）
+
+<div class="article-box" markdown="1">
+
+如果你告诉机器人“把桌子收拾好”，这涵盖了很多具体步骤：物体在哪、怎么规划动作、等等等等；如果盒子在被子后面，那么这个“杯子后面的盒子”应该如何结合语义与空间关系来理解。世界模型就是希望解决这样的问题，它建模整个环境，尝试预测动作之后环境会怎样变化——推一下杯子，它可能移到哪里。
+
+</div>
+
+### 动作策略与控制（Policy & Control）
 
 <div class="article-box" markdown="1">
 
@@ -151,7 +157,7 @@ Embodied Intelligence
 
 </div>
 
-### **学习（Learning）：这些能力怎么获得？**
+### 学习（Learning）
 
 <div class="article-box" markdown="1">
 
@@ -159,7 +165,7 @@ Embodied Intelligence
 
 </div>
 
-### **交互（Interaction）：机器人如何和人、物体一起做事？**
+### 交互（Interaction）
 
 <div class="article-box" markdown="1">
 
@@ -167,7 +173,7 @@ Embodied Intelligence
 
 </div>
 
-### **具身与硬件（Embodiment & Hardware）：用什么身体完成任务？**
+### 具身与硬件（Embodiment & Hardware）
 
 <div class="article-box" markdown="1">
 
@@ -177,7 +183,7 @@ Embodied Intelligence
 
 </div>
 
-### **还需要把什么接起来？**
+### 工程支撑（Engineering Infrastructure）
 
 <div class="article-box" markdown="1">
 
@@ -197,7 +203,7 @@ Embodied Intelligence
 
 ## 三、从“回复一句话”到“输出一个动作”
 
-### **1. 先看 LLM：输入文字，生成文字**
+### 1. 大语言模型（LLM）
 
 <div class="article-box" markdown="1">
 
@@ -218,7 +224,7 @@ $$
 
 </div>
 
-### **2. 向你介绍 OpenVLA：图片和指令输入，动作输出**
+### 2. 动作模型（OpenVLA）
 
 <div class="article-box" markdown="1">
 
@@ -256,7 +262,7 @@ $$
 
 </div>
 
-### **3. 七个 token，怎样让夹爪动起来？**
+### 3. 动作解码与执行（Action Decoding & Execution）
 
 <div class="article-box" markdown="1">
 
