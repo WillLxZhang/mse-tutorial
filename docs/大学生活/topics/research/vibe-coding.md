@@ -508,6 +508,7 @@ AI时代，我们不需要大量的力工劳动和记忆性学习了。但我们
 </div>
 
 ### **5. 视觉识别&机器人**
+此部分可跳转 [具身智能](docs\大学生活\topics\majors\embodied-ai.md) 以详细了解
 
 <div class="article-box" markdown="1">
 
