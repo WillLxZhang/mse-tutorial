@@ -9,6 +9,7 @@ hide:
 
 ## 奖学金与荣誉
 
-- [特优生](topics/campus/special-student.md)
+
 - [国家奖学金](topics/campus/national-scholarship.md)
 - [社会奖学金](topics/campus/social-scholarship.md)
+- [特优生](topics/campus/special-student.md)
