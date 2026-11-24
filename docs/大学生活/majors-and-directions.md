@@ -19,6 +19,6 @@ hide:
 - [转专业](topics/majors/major-transfer.md)
 
 ## 方向
-
-- [嵌入式](topics/majors/embedded-systems.md)
 - [具身智能](topics/majors/embodied-ai.md)
+- [嵌入式](topics/majors/embedded-systems.md)
+

@@ -8,14 +8,13 @@ hide:
 本页涵盖了关于学生团队、竞赛和项目等内容。
 
 ## 团队
-
+- [Robocon](topics/competitions/robocon.md)
 - [FOCUS](topics/competitions/focus.md)
-- [ChinaMaker](topics/competitions/chinamaker.md)
 - [STAR](topics/competitions/star.md)
 - [VEX](topics/competitions/vex.md)
-- [Robocon](topics/competitions/robocon.md)
 - [ONE](topics/competitions/one.md)
 - [思飞](topics/competitions/sifei.md)
+- [ChinaMaker](topics/competitions/chinamaker.md)
 - [狼牙](topics/competitions/langya.md)
 
 ## 竞赛
