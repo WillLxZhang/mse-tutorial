@@ -51,6 +51,8 @@ ChinaMaker 是华科机械学院的本科生创新团队，由[黄永安教授](
 
 #### 欢迎对柔性电子感兴趣，希望接触前沿知识、丰富科研履历的同学们加入ChinaMaker团队！
 
+> 可以搜索微信公众号“柔性电子制造团队”，上面会更新和该团队相关的内容。
+
 
 
 > by [Kevin Du](../../../baoyan/Kevin%20Du-beihang-ms-embodied.md)
