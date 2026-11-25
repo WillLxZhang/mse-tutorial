@@ -179,7 +179,7 @@ $$
 
 <div class="article-box" markdown="1">
 
-[OpenVLA](https://openvla.github.io/) 是一个开源的**视觉—语言—动作模型（Vision-Language-Action Model，VLA）**，也就是我们前面说的原理：输入当前相机画面和文字指令，预测一步机器人动作。
+[**OpenVLA**](https://openvla.github.io/) 是一个开源的**视觉—语言—动作模型（Vision-Language-Action Model，VLA）**，也就是我们前面说的原理：输入当前相机画面和文字指令，预测一步机器人动作。
 
 我们仍用“拿起杯子”作为教学情景。指令记为 $\ell$，相机拍到的 RGB 图片记为 $I_t\in\mathbb{R}^{H\times W\times3}$。$H$、$W$ 表示图片的高和宽，$3$ 表示三个颜色通道。
 
